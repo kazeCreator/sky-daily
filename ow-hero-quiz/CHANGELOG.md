@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.0 - 2026-02-20
+
+- 新增全量英雄资源底座：`data/heroes.json`（按 Tank / DPS / Support）
+- 新增本地可爱风占位头像：`assets/heroes/*.svg`（与 hero slug 对齐）
+- 更新 `PLAN.md` / `DECISIONS.md`：进入 P2 并固定资源策略
+
 ## v1.1.0 - 2026-02-20
 
 - 移动端体验优化：
