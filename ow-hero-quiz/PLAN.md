@@ -124,8 +124,11 @@
 - [x] 雷达图模块：DPS/Tank/Support/Flanker/Stable
 - [x] 全量英雄资源索引（heroes.json）
 - [x] 可爱风占位头像（本地 SVG）
-- [x] 结果页英雄卡片化（读取 heroes.json）
-- [ ] 资源更新流程（版本 + 来源 + 差异）
+- [x] 结果页英雄卡片化（读取 live API + fallback cache）
+- [x] 资源更新流程（版本 + 来源 + 差异）
+  - live source: overfast heroes endpoint
+  - fallback snapshot: data/heroes-live.json
+  - 版本信息写入 changelog + README
 
 ---
 
