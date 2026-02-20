@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>守望先锋英雄匹配问卷（全段位）</title>
+    <meta name="description" content="定位+英雄池+主练副练建议，2-3分钟测出更适合你的守望先锋玩法。" />
+    <style>
+      :root {
+        --bg: #0a1022;
+        --card: #111a3b;
+        --text: #e9eeff;
+        --muted: #9bb0ff;
+        --line: rgba(255,255,255,.13);
+        --accent: #6ea8fe;
+        --ok: #7ce38b;
+      }
+      * { box-sizing: border-box; }
+      html, body { overscroll-behavior-y: contain; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+        background: radial-gradient(1100px 580px at 20% -20%, #1d2b67 0%, var(--bg) 55%);
+      }
+      .wrap {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px 16px calc(86px + env(safe-area-inset-bottom, 0px));
+      }
+      .card {
+        background: linear-gradient(180deg, #141f45 0%, var(--card) 100%);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.25);
+        padding: 18px;
+      }
+      h1 { margin: 0 0 8px; font-size: 28px; }
+      .sub { color: var(--muted); margin: 0 0 14px; }
+
+      .progress-wrap {
+        position: sticky;
+        top: 8px;
+        z-index: 5;
+        margin: 10px 0 14px;
+        padding: 10px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: rgba(10,16,34,.92);
+        backdrop-filter: blur(4px);
+      }
+      .progress-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .progress {
+        margin-top: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: rgba(255,255,255,.08);
+        overflow: hidden;
+      }
+      .progress > i {
+        display: block;
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg,#6ea8fe,#7ce38b);
+        transition: width .25s ease;
+      }
+
+      .legend {
+        margin: 8px 0 2px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .q {
+        margin: 12px 0;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 12px;
+        background: rgba(255,255,255,.02);
+      }
+      .q p {
+        margin: 0 0 10px;
+        line-height: 1.5;
+      }
+      .q.unanswered {
+        border-color: rgba(255, 170, 170, .55);
+      }
+
+      .scale {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0,1fr));
+        gap: 8px;
+      }
+      .opt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        min-height: 44px;
+        padding: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        user-select: none;
+      }
+      .opt input {
+        accent-color: var(--accent);
+        transform: scale(1.1);
+      }
+      .opt:has(input:checked) {
+        border-color: rgba(110,168,254,.9);
+        background: rgba(110,168,254,.16);
+      }
+
+      .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 14px;
+      }
+      button {
+        border: 0;
+        border-radius: 10px;
+        padding: 11px 14px;
+        min-height: 44px;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      .primary { background: var(--accent); color: #081531; }
+      .ghost { background: rgba(255,255,255,.1); color: var(--text); }
+
+      .mobile-actions {
+        display: none;
+      }
+
+      .result {
+        display: none;
+        margin-top: 14px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 14px;
+        background: rgba(255,255,255,.02);
+      }
+      .tag {
+        display: inline-block;
+        background: rgba(124,227,139,.18);
+        color: var(--ok);
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-weight: 700;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 10px;
+        margin: 10px 0 14px;
+      }
+      .metric {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px;
+        background: rgba(255,255,255,.02);
+      }
+      .bar {
+        margin-top: 7px;
+        height: 8px;
+        border-radius: 999px;
+        background: rgba(255,255,255,.08);
+        overflow: hidden;
+      }
+      .bar > i {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg,#6ea8fe,#7ce38b);
+      }
+      .small { color: var(--muted); font-size: 13px; }
+      .footer { margin-top:16px; color: var(--muted); font-size: 12px; }
+
+      @media (max-width: 640px){
+        h1 { font-size: 24px; }
+        .wrap { padding: 14px 12px calc(96px + env(safe-area-inset-bottom, 0px)); }
+        .card { padding: 14px; }
+        .grid { grid-template-columns: 1fr; }
+        .q { padding: 10px; }
+        .scale { gap: 6px; }
+        .opt { min-height: 46px; font-size: 13px; padding: 6px; }
+
+        .btns { display: none; }
+        .mobile-actions {
+          position: fixed;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 20;
+          display: grid;
+          grid-template-columns: 1fr auto;
+          gap: 8px;
+          padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+          background: rgba(10,16,34,.95);
+          backdrop-filter: blur(8px);
+          border-top: 1px solid var(--line);
+        }
+        .mobile-actions .ghost { padding-inline: 12px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>守望先锋英雄匹配问卷</h1>
+        <p class="sub">全段位可用｜2-3 分钟｜输出：定位 + 英雄池 + 主练/副练建议</p>
+
+        <div class="progress-wrap">
+          <div class="progress-head">
+            <span id="progressText">已完成 0 / 12</span>
+            <span id="progressPercent">0%</span>
+          </div>
+          <div class="progress"><i id="progressBar"></i></div>
+          <div class="legend">1=完全不符合，5=非常符合</div>
+        </div>
+
+        <form id="quiz"></form>
+
+        <div class="btns">
+          <button class="primary" type="button" id="calcBtn">生成我的结果</button>
+          <button class="ghost" type="button" id="copyBtn" disabled>复制结果文案</button>
+          <button class="ghost" type="button" id="resetBtn">重置</button>
+        </div>
+
+        <div class="result" id="resultBox">
+          <span class="tag" id="typeTag"></span>
+          <h2 id="resultTitle"></h2>
+          <p id="resultDesc"></p>
+          <div class="grid" id="metrics"></div>
+
+          <h3>推荐英雄池</h3>
+          <p id="heroes"></p>
+
+          <h3>主练 / 副练路线</h3>
+          <p id="route"></p>
+
+          <h3>训练建议（操作 / 意识 / 配合）</h3>
+          <ul id="tips"></ul>
+
+          <p class="small" id="shareText"></p>
+        </div>
+
+        <p class="footer">说明：每题 1-5 分（1=完全不符合，5=非常符合）。本问卷用于训练方向建议，不代表绝对强度。</p>
+      </div>
+    </div>
+
+    <div class="mobile-actions">
+      <button class="primary" type="button" id="calcBtnMobile">生成结果</button>
+      <button class="ghost" type="button" id="copyBtnMobile" disabled>复制</button>
+    </div>
+
+    <script>
+      const questions = [
+        '我喜欢高机动、频繁拉扯、打“极限操作”。',
+        '团战里我能同时兼顾多个信息（敌方位置/CD/队友状态）。',
+        '我更喜欢“开团冲锋”，而不是“后排慢磨”。',
+        '我能接受高风险高回报，即使偶尔会失误。',
+        '我更享受“帮助队友赢”，不只看个人击杀。',
+        '我喜欢靠站位、时机、技能配合赢团。',
+        '我的准星追踪/爆头命中比较稳定。',
+        '我对关键技能时机把握不错（保命/反打/开团）。',
+        '我能快速判断“该进攻还是该撤退”。',
+        '我愿意主动报点、沟通、打配合。',
+        '遇到逆风局，我更倾向于稳住节奏而不是硬拼。',
+        '我愿意为了团队阵容补位，即使不是自己最想玩的英雄。'
+      ];
+
+      const quiz = document.getElementById('quiz');
+      questions.forEach((text, idx) => {
+        const i = idx + 1;
+        const div = document.createElement('div');
+        div.className = 'q';
+        div.dataset.index = i;
+        div.innerHTML = `<p><b>${i}.</b> ${text}</p><div class="scale">${[1,2,3,4,5].map(v=>`<label class="opt"><input type="radio" name="q${i}" value="${v}">${v}</label>`).join('')}</div>`;
+        quiz.appendChild(div);
+      });
+
+      const val = n => Number((document.querySelector(`input[name=q${n}]:checked`) || {}).value || 0);
+      const allAnswered = () => Array.from({length: 12}, (_,k)=>val(k+1)).every(Boolean);
+
+      function updateProgress() {
+        const done = Array.from({length: 12}, (_,k)=>val(k+1)).filter(Boolean).length;
+        const percent = Math.round((done / 12) * 100);
+        document.getElementById('progressText').textContent = `已完成 ${done} / 12`;
+        document.getElementById('progressPercent').textContent = `${percent}%`;
+        document.getElementById('progressBar').style.width = `${percent}%`;
+      }
+
+      function markUnanswered() {
+        document.querySelectorAll('.q').forEach((q, idx) => {
+          q.classList.toggle('unanswered', !val(idx + 1));
+        });
+      }
+
+      function focusFirstUnanswered() {
+        const first = Array.from(document.querySelectorAll('.q')).find((_, idx) => !val(idx + 1));
+        if (first) {
+          first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+
+      function scores(){
+        const DPS = val(1)+val(4)+val(7);
+        const Tank = val(3)+val(9)+val(10);
+        const Support = val(5)+val(6)+val(8);
+        const Flanker = val(1)+val(2)+val(4);
+        const Stable = val(11)+val(12);
+        return { DPS, Tank, Support, Flanker, Stable };
+      }
+
+      function p(score, max){ return Math.round((score/max)*100); }
+
+      function getProfile(s){
+        const core = [['DPS',s.DPS],['Tank',s.Tank],['Support',s.Support]].sort((a,b)=>b[1]-a[1]);
+        const [main] = core[0];
+        const [second] = core[1];
+        const aggressive = (s.Flanker >= 12 && s.Stable <= 6);
+        const balanced = (s.Flanker >= 10 && s.Stable >= 7);
+
+        const map = {
+          DPS: {
+            tag: '输出核心',
+            title: '你更适合主玩输出位（DPS）',
+            desc: '你偏向“兑现伤害、拿关键击杀”的打法。',
+            heroesAgg: '主练：源氏 / 猎空 / 索杰恩；副练：卡西迪 / 艾什',
+            heroesBal: '主练：士兵76 / 卡西迪 / 艾什；副练：源氏 / 回声',
+            routeAgg: '主练高机动切入，副练中距稳定枪线。',
+            routeBal: '主练稳定中距压制，副练机动补刀。',
+            tipsAgg: ['先骗技能再进场，避免裸切后排。','击杀失败立刻撤离，保持循环骚扰。','与坦克进场同步，不单飞。'],
+            tipsBal: ['先打能打到的目标，减少空转。','优先占高地，保证持续输出角度。','报敌方关键技能CD，帮队友决定开团。']
+          },
+          Tank: {
+            tag: '前线发动机',
+            title: '你更适合主玩坦克位（Tank）',
+            desc: '你更擅长开团、吃技能、带节奏。',
+            heroesAgg: '主练：温斯顿 / D.Va / 末日铁拳；副练：莱因哈特',
+            heroesBal: '主练：莱因哈特 / 西格玛 / 拉玛刹；副练：温斯顿',
+            routeAgg: '主练机动开团坦克，副练正面盾压坦克。',
+            routeBal: '主练稳健控场坦克，副练机动抓机会。',
+            tipsAgg: ['开团前确认队友视角和资源。','吃完第一波伤害后及时轮转掩体。','切后排要明确目标，不恋战。'],
+            tipsBal: ['先控关键地形，再考虑推进。','技能分层交，别一次打光。','主动报“我要进/我撤”让队伍同频。']
+          },
+          Support: {
+            tag: '团队中枢',
+            title: '你更适合主玩辅助位（Support）',
+            desc: '你有明显的团队倾向，擅长保人和反打。',
+            heroesAgg: '主练：雾子 / 卢西奥 / 莫伊拉；副练：安娜',
+            heroesBal: '主练：安娜 / 巴蒂斯特 / 伊拉锐；副练：雾子',
+            routeAgg: '主练机动辅助带节奏，副练强控治疗位。',
+            routeBal: '主练稳定保排，副练机动补位。',
+            tipsAgg: ['别只顾输出，先保核心队友。','进攻技能留一手应对反扑。','用位移去抢关键角度，不硬站正面。'],
+            tipsBal: ['治疗优先级：核心输出 > 前压坦克 > 其余。','关键技能（睡/灯/净化）留给敌方大招窗口。','多报“能救/不能救”，减少队友误判。']
+          }
+        };
+
+        const cfg = map[main];
+        const heroes = aggressive ? cfg.heroesAgg : cfg.heroesBal;
+        const route = aggressive ? cfg.routeAgg : cfg.routeBal;
+        const tips = aggressive ? cfg.tipsAgg : cfg.tipsBal;
+        const sideMsg = `副定位倾向：${second}。` + (balanced ? ' 你属于“能打能稳”的平衡型。' : '');
+        return { cfg, heroes, route, tips, sideMsg };
+      }
+
+      function metricCard(name, score, max){
+        const cn = { DPS:'输出位', Tank:'坦克位', Support:'辅助位', Flanker:'机动刺客', Stable:'稳健补位' };
+        return `<div class="metric"><b>${cn[name]}：${score}/${max}</b><div class="bar"><i style="width:${p(score,max)}%"></i></div></div>`;
+      }
+
+      let latestShare = '';
+
+      function renderResult() {
+        if (!allAnswered()) {
+          markUnanswered();
+          focusFirstUnanswered();
+          return alert('还有题目没选完，先全部作答。');
+        }
+
+        const s = scores();
+        const r = getProfile(s);
+
+        document.getElementById('resultBox').style.display = 'block';
+        document.getElementById('typeTag').textContent = r.cfg.tag;
+        document.getElementById('resultTitle').textContent = r.cfg.title;
+        document.getElementById('resultDesc').textContent = `${r.cfg.desc} ${r.sideMsg}`;
+        document.getElementById('heroes').textContent = r.heroes;
+        document.getElementById('route').textContent = r.route;
+        document.getElementById('tips').innerHTML = r.tips.map(t => `<li>${t}</li>`).join('');
+
+        document.getElementById('metrics').innerHTML = [
+          metricCard('DPS', s.DPS, 15),
+          metricCard('Tank', s.Tank, 15),
+          metricCard('Support', s.Support, 15),
+          metricCard('Flanker', s.Flanker, 15),
+          metricCard('Stable', s.Stable, 10)
+        ].join('');
+
+        latestShare = `我的守望英雄匹配结果：${r.cfg.tag}｜${r.cfg.title}。\n推荐英雄池：${r.heroes}\n主练/副练：${r.route}`;
+        document.getElementById('shareText').textContent = latestShare;
+        document.getElementById('copyBtn').disabled = false;
+        document.getElementById('copyBtnMobile').disabled = false;
+
+        markUnanswered();
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+      }
+
+      async function copyResult() {
+        if (!latestShare) return;
+        try {
+          await navigator.clipboard.writeText(latestShare);
+          alert('结果文案已复制，可直接发给朋友。');
+        } catch {
+          alert('复制失败，请手动长按复制。');
+        }
+      }
+
+      document.getElementById('calcBtn').addEventListener('click', renderResult);
+      document.getElementById('calcBtnMobile').addEventListener('click', renderResult);
+      document.getElementById('copyBtn').addEventListener('click', copyResult);
+      document.getElementById('copyBtnMobile').addEventListener('click', copyResult);
+
+      document.getElementById('resetBtn').addEventListener('click', () => {
+        document.querySelectorAll('input[type=radio]').forEach(i => i.checked = false);
+        document.getElementById('resultBox').style.display = 'none';
+        document.getElementById('copyBtn').disabled = true;
+        document.getElementById('copyBtnMobile').disabled = true;
+        latestShare = '';
+        markUnanswered();
+        updateProgress();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      quiz.addEventListener('change', () => {
+        updateProgress();
+        markUnanswered();
+      });
+
+      updateProgress();
+      markUnanswered();
+    </script>
+  </body>
+</html>
