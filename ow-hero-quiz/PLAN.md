@@ -120,11 +120,11 @@
 
 目标：增强社媒分享与全量英雄资源底座。
 
-- [ ] 结果分享图（PNG）导出：小红书 3:4（1080x1440）优先
-- [ ] 雷达图模块：DPS/Tank/Support/Flanker/Stable
+- [x] 结果分享图（PNG）导出：小红书 3:4（1080x1440）优先
+- [x] 雷达图模块：DPS/Tank/Support/Flanker/Stable
 - [x] 全量英雄资源索引（heroes.json）
 - [x] 可爱风占位头像（本地 SVG）
-- [ ] 结果页英雄卡片化（读取 heroes.json）
+- [x] 结果页英雄卡片化（读取 heroes.json）
 - [ ] 资源更新流程（版本 + 来源 + 差异）
 
 ---
