@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Footy Headlines",
+    "url": "https://www.footyheadlines.com/feeds/posts/default?alt=rss",
+    "site": "https://www.footyheadlines.com"
+  },
+  {
+    "name": "BBC Football",
+    "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "site": "https://www.bbc.com/sport/football"
+  },
+  {
+    "name": "UEFA News",
+    "url": "https://www.uefa.com/rssfeed/news/rss.xml",
+    "site": "https://www.uefa.com"
+  }
+]
