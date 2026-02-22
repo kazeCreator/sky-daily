@@ -709,5 +709,806 @@
     "source": "store.chelseafc.com",
     "image_quality": "jersey_product",
     "confidence": 0.86
+  },
+  {
+    "id": "club-ajax-johan-cruyff-1973-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ajax-johan-cruyff-1973-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ajax-wesley-sneijder-2007-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ajax-wesley-sneijder-2007-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ajax-dusan-tadic-2019-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ajax-dusan-tadic-2019-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-arsenal-thierry-henry-2004-home",
+    "image_url": "https://cdn.media.amplience.net/i/ArsenalDirect/mkb1793_f1.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://arsenaldirect.arsenal.com/",
+    "source": "arsenaldirect.arsenal.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-arsenal-thierry-henry-2004-away",
+    "image_url": "https://cdn.media.amplience.net/i/ArsenalDirect/mkb1793_f1.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://arsenaldirect.arsenal.com/",
+    "source": "arsenaldirect.arsenal.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-arsenal-cesc-fabregas-2006-home",
+    "image_url": "https://cdn.media.amplience.net/i/ArsenalDirect/mkb1793_f1.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://arsenaldirect.arsenal.com/",
+    "source": "arsenaldirect.arsenal.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-arsenal-cesc-fabregas-2006-away",
+    "image_url": "https://cdn.media.amplience.net/i/ArsenalDirect/mkb1793_f1.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://arsenaldirect.arsenal.com/",
+    "source": "arsenaldirect.arsenal.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-arsenal-bukayo-saka-2023-home",
+    "image_url": "https://cdn.media.amplience.net/i/ArsenalDirect/mkb1793_f1.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://arsenaldirect.arsenal.com/",
+    "source": "arsenaldirect.arsenal.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-arsenal-bukayo-saka-2023-away",
+    "image_url": "https://cdn.media.amplience.net/i/ArsenalDirect/mkb1793_f1.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://arsenaldirect.arsenal.com/",
+    "source": "arsenaldirect.arsenal.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-bayern-munich-thomas-muller-2013-home",
+    "image_url": "https://a.storyblok.com/f/148652/1080x810/f92404e471/25-winterjacken-mutzen_4x3.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://fcbayern.com/store/en-zz",
+    "source": "fcbayern.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-bayern-munich-thomas-muller-2013-away",
+    "image_url": "https://a.storyblok.com/f/148652/1080x810/f92404e471/25-winterjacken-mutzen_4x3.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://fcbayern.com/store/en-zz",
+    "source": "fcbayern.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-bayern-munich-arjen-robben-2013-home",
+    "image_url": "https://a.storyblok.com/f/148652/1080x810/f92404e471/25-winterjacken-mutzen_4x3.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://fcbayern.com/store/en-zz",
+    "source": "fcbayern.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-bayern-munich-arjen-robben-2013-away",
+    "image_url": "https://a.storyblok.com/f/148652/1080x810/f92404e471/25-winterjacken-mutzen_4x3.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://fcbayern.com/store/en-zz",
+    "source": "fcbayern.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-bayern-munich-harry-kane-2024-home",
+    "image_url": "https://a.storyblok.com/f/148652/1080x810/f92404e471/25-winterjacken-mutzen_4x3.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://fcbayern.com/store/en-zz",
+    "source": "fcbayern.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-bayern-munich-harry-kane-2024-away",
+    "image_url": "https://a.storyblok.com/f/148652/1080x810/f92404e471/25-winterjacken-mutzen_4x3.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://fcbayern.com/store/en-zz",
+    "source": "fcbayern.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-benfica-rui-costa-2008-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-benfica-rui-costa-2008-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-benfica-angel-di-maria-2010-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-benfica-angel-di-maria-2010-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-benfica-joao-neves-2024-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-benfica-joao-neves-2024-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-boca-juniors-martin-palermo-2000-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-boca-juniors-martin-palermo-2000-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-boca-juniors-juan-riquelme-2007-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-boca-juniors-juan-riquelme-2007-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-boca-juniors-carlos-tevez-2016-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-boca-juniors-carlos-tevez-2016-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-flamengo-petkovic-2009-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-flamengo-petkovic-2009-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-flamengo-gabigol-2019-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-flamengo-gabigol-2019-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-flamengo-bruno-henrique-2020-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-flamengo-bruno-henrique-2020-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-miami-lionel-messi-2024-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-miami-lionel-messi-2024-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-miami-luis-suarez-2024-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-miami-luis-suarez-2024-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-miami-sergio-busquets-2024-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-miami-sergio-busquets-2024-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-milan-javier-zanetti-2010-home",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-milan-javier-zanetti-2010-away",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-milan-diego-milito-2010-home",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-milan-diego-milito-2010-away",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-milan-lautaro-martinez-2023-home",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-inter-milan-lautaro-martinez-2023-away",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-juventus-pavel-nedved-2003-home",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-juventus-pavel-nedved-2003-away",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-juventus-alessandro-del-piero-2006-home",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-juventus-alessandro-del-piero-2006-away",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-juventus-gianluigi-buffon-2017-home",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-juventus-gianluigi-buffon-2017-away",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-manchester-united-david-beckham-1999-home",
+    "image_url": "https://a.storyblok.com/f/274736/3840x1500/6a2d5bb6a1/hero-banner-desktop_v6.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.manutd.com/en",
+    "source": "store.manutd.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-argentina-diego-maradona-1986-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-argentina-diego-maradona-1986-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-argentina-lionel-messi-2022-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-argentina-lionel-messi-2022-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-argentina-angel-di-maria-2022-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-argentina-angel-di-maria-2022-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-belgium-eden-hazard-2018-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-belgium-eden-hazard-2018-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-belgium-kevin-de-bruyne-2022-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-belgium-kevin-de-bruyne-2022-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-belgium-romelu-lukaku-2022-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-belgium-romelu-lukaku-2022-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-germany-miroslav-klose-2014-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-germany-miroslav-klose-2014-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-germany-philipp-lahm-2014-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-germany-philipp-lahm-2014-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-germany-thomas-muller-2014-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-germany-thomas-muller-2014-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-japan-hidetoshi-nakata-1998-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-japan-hidetoshi-nakata-1998-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-japan-keisuke-honda-2010-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-japan-keisuke-honda-2010-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-japan-takefusa-kubo-2022-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-japan-takefusa-kubo-2022-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-spain-andres-iniesta-2010-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-spain-andres-iniesta-2010-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-spain-xavi-2010-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-spain-xavi-2010-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-spain-david-villa-2010-home",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-spain-david-villa-2010-away",
+    "image_url": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/global_wc26_jamaica_home_away_football_ss26_launch_app_drop_detail_card_d_5e643f8aee.jpeg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.adidas.com/us/soccer-jerseys",
+    "source": "www.adidas.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "live-cb604efaed-home",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "live-cb604efaed-away",
+    "image_url": "https://store.juventus.com/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.juventus.com/hk",
+    "source": "store.juventus.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "live-8a0b8cd87b-home",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "live-8a0b8cd87b-away",
+    "image_url": "https://store.inter.it/images/empty.webp",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.inter.it/hk",
+    "source": "store.inter.it",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
   }
 ]

@@ -50,11 +50,19 @@ async function og(url){
     if (!allowed(final)) return null;
     const html = await r.text();
     const m = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
-      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-    if (!m) return null;
-    const img = m[1].trim();
+      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)
+      || html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i)
+      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i)
+      || html.match(/<meta[^>]+itemprop=["']image["'][^>]+content=["']([^"']+)["']/i)
+      || html.match(/<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["']/i);
+    let img = m ? m[1].trim() : '';
+    if (!img) {
+      const pics = [...html.matchAll(/https?:[^"' )]+\.(?:jpg|jpeg|png|webp)/ig)].map(x=>x[0]);
+      const pick = pics.find(u => /(jersey|shirt|kit|soccer|football)/i.test(u)) || pics[0] || '';
+      img = pick;
+    }
     if (!img || !/^https:\/\//i.test(img)) return null;
-    if (/(getty|shutterstock|alamy|watermark|imago)/i.test(img)) return null;
+    if (/(getty|shutterstock|alamy|watermark|imago|logo-oficial|logo|badge)/i.test(img)) return null;
     return { image: img, final };
   } catch { return null; }
 }
