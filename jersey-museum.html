@@ -3,335 +3,196 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>球衣博物馆 · The Jersey Gazette</title>
+  <title>足球球衣博物馆 · The Football Jersey Gazette</title>
   <style>
-    :root {
-      --paper: #f7f2e8;
-      --ink: #1f1f1a;
-      --muted: #6b665d;
-      --line: #b8b0a3;
-      --accent: #7b1f1f;
-      --card: #fbf8f0;
-    }
+    :root { --paper:#f7f2e8; --ink:#1f1f1a; --muted:#6b665d; --line:#b8b0a3; --accent:#7b1f1f; --card:#fbf8f0; }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background: radial-gradient(ellipse at top, #fffdf7 0%, var(--paper) 60%);
-      font-family: "Times New Roman", "Songti SC", "STSong", serif;
-      line-height: 1.45;
-    }
-    .page {
-      max-width: 1180px;
-      margin: 24px auto;
-      padding: 14px 18px 30px;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      box-shadow: 0 10px 24px rgba(40, 35, 25, 0.08);
-    }
-    .masthead {
-      border-top: 3px double var(--ink);
-      border-bottom: 3px double var(--ink);
-      padding: 14px 0 10px;
-      text-align: center;
-      margin-bottom: 14px;
-    }
-    .kicker {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: .18em;
-      color: var(--muted);
-    }
-    .title {
-      margin: 6px 0 0;
-      font-size: clamp(34px, 7vw, 68px);
-      line-height: 1;
-      font-weight: 700;
-    }
-    .meta {
-      margin-top: 6px;
-      font-size: 12px;
-      color: var(--muted);
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .lead {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 14px;
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 12px;
-      margin-bottom: 12px;
-    }
-    .lead h2 {
-      margin: 0 0 8px;
-      font-size: clamp(22px, 4vw, 40px);
-      line-height: 1.08;
-    }
-    .lead p { margin: 0; font-size: 17px; max-width: 64ch; }
-    .quote {
-      border-left: 3px solid var(--ink);
-      padding-left: 10px;
-      font-style: italic;
-      font-size: 16px;
-      align-self: center;
-    }
-
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(140px,1fr));
-      gap: 10px;
-      margin: 10px 0 14px;
-    }
-    .stat {
-      border: 1px solid var(--line);
-      background: #fffdf9;
-      padding: 8px 10px;
-    }
-    .stat .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
-    .stat .value { font-size: 24px; font-weight: 700; color: var(--accent); }
-
-    .toolbar {
-      display: grid;
-      grid-template-columns: 1fr auto auto auto;
-      gap: 8px;
-      align-items: center;
-      border-bottom: 1px dashed var(--line);
-      padding-bottom: 10px;
-      margin-bottom: 14px;
-    }
-    input, select, button {
-      width: 100%;
-      font: inherit;
-      border: 1px solid var(--line);
-      background: #fffdf9;
-      color: var(--ink);
-      padding: 8px 10px;
-    }
-    button { cursor: pointer; }
-    .switch {
-      display: inline-flex;
-      gap: 6px;
-      width: auto;
-    }
-    .switch button {
-      width: auto;
-      min-width: 86px;
-      background: #f2ecdf;
-    }
-    .switch button.active { background: #e7dbc5; border-color: #8f8572; }
-
-    .catalog {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0,1fr));
-      gap: 12px;
-    }
-    .card {
-      padding: 12px;
-      background: var(--card);
-      border: 1px solid var(--line);
-      position: relative;
-      min-height: 220px;
-    }
-    .card::before {
-      content: "";
-      position: absolute;
-      left: 0; right: 0; top: 0; height: 3px;
-      background: repeating-linear-gradient(90deg, var(--ink) 0 14px, transparent 14px 20px);
-      opacity: .12;
-    }
-    .tag { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
-    .card h3 { margin: 0 0 2px; font-size: 22px; line-height: 1.2; }
-    .subtitle { font-size: 14px; color: #3f3b34; margin-bottom: 6px; }
-    .meta2 { font-size: 13px; color: #4d473d; margin-bottom: 8px; }
-    .desc { margin: 0; font-size: 14px; }
-    .number { margin-top: 10px; font-size: 26px; font-weight: 700; color: var(--accent); }
-    .actions {
-      display: flex;
-      gap: 8px;
-      margin-top: 8px;
-    }
-    .own-btn.owned {
-      background: #1e4c2f;
-      color: #fff;
-      border-color: #173d25;
-    }
-
-    .footer {
-      margin-top: 14px;
-      border-top: 1px solid var(--line);
-      padding-top: 10px;
-      font-size: 12px;
-      color: var(--muted);
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-    }
-
-    @media (max-width: 920px) {
-      .lead { grid-template-columns: 1fr; }
-      .stats { grid-template-columns: repeat(2, minmax(120px,1fr)); }
-      .toolbar { grid-template-columns: 1fr 1fr; }
-      .toolbar input { grid-column: 1 / -1; }
-      .catalog { grid-template-columns: repeat(2, minmax(0,1fr)); }
-    }
-    @media (max-width: 620px) {
-      .page { margin: 0; border: 0; box-shadow: none; }
-      .catalog { grid-template-columns: 1fr; }
-      .title { font-size: 38px; }
-      .switch { grid-column: 1 / -1; }
-    }
+    body { margin:0; color:var(--ink); background:radial-gradient(ellipse at top,#fffdf7 0%,var(--paper) 60%); font-family:"Times New Roman","Songti SC",serif; }
+    .page { max-width:1180px; margin:24px auto; padding:14px 18px 30px; background:var(--paper); border:1px solid var(--line); box-shadow:0 10px 24px rgba(40,35,25,.08); }
+    .masthead { border-top:3px double var(--ink); border-bottom:3px double var(--ink); text-align:center; padding:14px 0 10px; margin-bottom:14px; }
+    .kicker,.meta,.tag,.label { font-size:12px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); }
+    .title { margin:6px 0 0; font-size:clamp(34px,7vw,66px); line-height:1; }
+    .lead { display:grid; grid-template-columns:2fr 1fr; gap:14px; border-bottom:1px solid var(--line); padding-bottom:12px; margin-bottom:12px; }
+    .lead h2 { margin:0 0 8px; font-size:clamp(22px,4vw,38px); line-height:1.1; }
+    .quote { border-left:3px solid var(--ink); padding-left:10px; font-style:italic; align-self:center; }
+    .stats { display:grid; grid-template-columns:repeat(5,minmax(120px,1fr)); gap:10px; margin:10px 0 14px; }
+    .stat { border:1px solid var(--line); background:#fffdf9; padding:8px 10px; }
+    .value { font-size:24px; font-weight:700; color:var(--accent); }
+    .toolbar { display:grid; grid-template-columns:1fr auto auto auto auto; gap:8px; align-items:center; border-bottom:1px dashed var(--line); padding-bottom:10px; margin-bottom:14px; }
+    input,select,button { width:100%; font:inherit; border:1px solid var(--line); background:#fffdf9; padding:8px 10px; }
+    button { cursor:pointer; }
+    .switch { display:inline-flex; gap:6px; width:auto; }
+    .switch button { width:auto; min-width:86px; background:#f2ecdf; }
+    .switch button.active { background:#e7dbc5; border-color:#8f8572; }
+    .sync-btn { background:#243d63; color:#fff; border-color:#1b304f; }
+    .catalog { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .card { padding:12px; background:var(--card); border:1px solid var(--line); position:relative; min-height:260px; }
+    .card::before { content:""; position:absolute; left:0; right:0; top:0; height:3px; background:repeating-linear-gradient(90deg,var(--ink) 0 14px,transparent 14px 20px); opacity:.12; }
+    .card h3 { margin:0 0 4px; font-size:22px; }
+    .subtitle { font-size:14px; color:#3f3b34; margin-bottom:6px; }
+    .meta2,.desc,.src { font-size:14px; color:#2a2822; margin:0 0 6px; }
+    .number { margin-top:8px; font-size:26px; font-weight:700; color:var(--accent); }
+    .actions { display:flex; gap:8px; margin-top:8px; }
+    .own-btn.owned { background:#1e4c2f; color:#fff; border-color:#173d25; }
+    .risk { display:inline-block; padding:2px 6px; border:1px solid var(--line); font-size:12px; }
+    .risk.low { background:#e6f4ea; border-color:#8ebc98; }
+    .risk.mid { background:#fff4dd; border-color:#d2b178; }
+    .risk.high { background:#fde8e8; border-color:#d08c8c; }
+    .footer { margin-top:14px; border-top:1px solid var(--line); padding-top:10px; font-size:12px; color:var(--muted); text-align:center; }
+    @media (max-width: 980px){ .lead{grid-template-columns:1fr;} .stats{grid-template-columns:repeat(2,minmax(120px,1fr));} .toolbar{grid-template-columns:1fr 1fr;} .toolbar input{grid-column:1/-1;} .catalog{grid-template-columns:repeat(2,minmax(0,1fr));} }
+    @media (max-width: 620px){ .page{margin:0;border:0;box-shadow:none;} .catalog{grid-template-columns:1fr;} }
   </style>
 </head>
 <body>
   <main class="page">
     <header class="masthead">
-      <div class="kicker">vol. 1 · curated archive · since 2026</div>
-      <h1 class="title">球衣博物馆</h1>
-      <div class="meta">THE JERSEY GAZETTE · COLLECTION ARCHIVE</div>
+      <div class="kicker">vol. 2 · football archive · with sync engine</div>
+      <h1 class="title">足球球衣博物馆</h1>
+      <div class="meta">THE FOOTBALL JERSEY GAZETTE · V2</div>
     </header>
 
     <section class="lead">
       <article>
-        <h2>收藏系统上线：<br>把球衣“标记为已拥有”</h2>
-        <p>你可以在每张馆藏卡片里标记「已拥有」，并实时查看收藏统计。数据库已按统一字段组织，后续可持续扩展到更多联赛与时代。</p>
+        <h2>V2：全量数据库引擎（增量同步 + 去重合并 + 可信度评分）</h2>
+        <p>你可以继续标记“已拥有”，并一键执行增量同步。系统会自动按 key 去重合并，保留更高可信度与更新验证时间。</p>
       </article>
-      <aside class="quote">“全量是过程，不是终点。<br>先建立可信结构，再无限扩展。”</aside>
+      <aside class="quote">“先有可信度，再谈全量。”</aside>
     </section>
 
     <section class="stats">
       <div class="stat"><div class="label">数据库总条目</div><div id="stat-total" class="value">0</div></div>
       <div class="stat"><div class="label">已拥有</div><div id="stat-owned" class="value">0</div></div>
       <div class="stat"><div class="label">覆盖联赛</div><div id="stat-leagues" class="value">0</div></div>
-      <div class="stat"><div class="label">最近更新</div><div id="stat-updated" class="value" style="font-size:16px">—</div></div>
+      <div class="stat"><div class="label">平均可信度</div><div id="stat-trust" class="value">0</div></div>
+      <div class="stat"><div class="label">最近同步</div><div id="stat-updated" class="value" style="font-size:14px">—</div></div>
     </section>
 
-    <section class="toolbar" aria-label="筛选工具">
-      <input id="search" placeholder="搜索球员 / 球队 / 设计背景，例如：Jordan, Lakers, dynasty" />
-      <select id="era">
-        <option value="all">全部年代</option>
-        <option value="80s">1980s</option>
-        <option value="90s">1990s</option>
-        <option value="00s">2000s</option>
-        <option value="10s">2010s</option>
-      </select>
-      <select id="sort">
-        <option value="year-desc">年份：新 → 旧</option>
-        <option value="year-asc">年份：旧 → 新</option>
-        <option value="name">球员名 A → Z</option>
-      </select>
-      <div class="switch">
-        <button id="tab-all" class="active" type="button">全部</button>
-        <button id="tab-owned" type="button">只看已拥有</button>
-      </div>
+    <section class="toolbar">
+      <input id="search" placeholder="搜索球员 / 球队 / 设计背景" />
+      <select id="era"><option value="all">全部年代</option><option value="90s">1990s</option><option value="00s">2000s</option><option value="10s">2010s</option></select>
+      <select id="sort"><option value="year-desc">年份：新→旧</option><option value="year-asc">年份：旧→新</option><option value="name">球员名 A→Z</option><option value="cred">可信度高→低</option></select>
+      <div class="switch"><button id="tab-all" class="active" type="button">全部</button><button id="tab-owned" type="button">只看已拥有</button></div>
+      <button id="sync" class="sync-btn" type="button">V2 增量同步</button>
     </section>
 
     <section id="catalog" class="catalog"></section>
-    <footer class="footer">database file: jersey-db.json · local ownership state: browser localStorage</footer>
+    <footer class="footer">sources: club / brand / federation / media · merge strategy: key+credibility+last_verified</footer>
   </main>
 
   <script>
-    // 与 jersey-db.json 同结构；静态打开 HTML 时可直接使用
-    const collection = [
-      {id:"nba-bulls-jordan-1998-home",sport:"Basketball",league:"NBA",team:"Chicago Bulls",player:"Michael Jordan",year:1998,era:"90s",number:"23",brand:"Champion",type:"Home",colorway:"Red/Black/White",design_background:"Bulls dynasty peak period; bold red home identity became synonymous with 90s championship basketball.",cultural_notes:"Associated with The Last Shot and global NBA expansion era.",source:"Official NBA historical records"},
-      {id:"nba-lakers-kobe-2010-icon",sport:"Basketball",league:"NBA",team:"Los Angeles Lakers",player:"Kobe Bryant",year:2010,era:"10s",number:"24",brand:"Adidas",type:"Home",colorway:"Gold/Purple",design_background:"Post-Shaq championship era visual symbol; clean gold body with purple trim represented legacy continuity.",cultural_notes:"Back-to-back title period cemented No.24 iconography.",source:"NBA Finals media guides"},
-      {id:"nba-sixers-iverson-2001-away",sport:"Basketball",league:"NBA",team:"Philadelphia 76ers",player:"Allen Iverson",year:2001,era:"00s",number:"3",brand:"Reebok",type:"Away",colorway:"Black/Red",design_background:"Black away palette marked a tougher identity shift and matched early-2000s aggressive styling.",cultural_notes:"Street culture entering mainstream basketball aesthetics.",source:"Team stylebook archives"},
-      {id:"nba-lakers-magic-1987-home",sport:"Basketball",league:"NBA",team:"Los Angeles Lakers",player:"Magic Johnson",year:1987,era:"80s",number:"32",brand:"MacGregor Sand-Knit",type:"Home",colorway:"Gold/Purple",design_background:"Showtime era uniform used strong contrast and minimal striping to emphasize pace and visibility.",cultural_notes:"One of the most recognizable 80s sports visual identities.",source:"NBA photo archive"},
-      {id:"nba-celtics-bird-1986-home",sport:"Basketball",league:"NBA",team:"Boston Celtics",player:"Larry Bird",year:1986,era:"80s",number:"33",brand:"Sand-Knit",type:"Home",colorway:"White/Green",design_background:"Classic Celtic block typography and restrained trim reflected franchise traditionalism.",cultural_notes:"Visual counterpoint to Lakers Showtime aesthetics.",source:"Basketball Hall of Fame references"},
-      {id:"nba-spurs-duncan-2003-home",sport:"Basketball",league:"NBA",team:"San Antonio Spurs",player:"Tim Duncan",year:2003,era:"00s",number:"21",brand:"Nike",type:"Home",colorway:"White/Black/Silver",design_background:"Low-saturation silver-black system mirrored Spurs' fundamentals-first identity.",cultural_notes:"Minimalism done right in team sports kits.",source:"Team media archive"},
-      {id:"nba-rockets-yao-2004-home",sport:"Basketball",league:"NBA",team:"Houston Rockets",player:"Yao Ming",year:2004,era:"00s",number:"11",brand:"Reebok",type:"Home",colorway:"White/Red",design_background:"Updated Rockets cut and cleaner side panels aligned with 2000s template modernization.",cultural_notes:"Cross-market significance in NBA globalization across Asia.",source:"Official team uniform history"},
-      {id:"nba-heat-lebron-2013-black",sport:"Basketball",league:"NBA",team:"Miami Heat",player:"LeBron James",year:2013,era:"10s",number:"6",brand:"Adidas",type:"Alternate",colorway:"Black/Red",design_background:"High-contrast black alternate echoed Miami's modern, performance-forward visual language.",cultural_notes:"Core jersey of Heat title-era highlight culture.",source:"NBA style releases"},
-      {id:"nba-mavs-dirk-2011-road",sport:"Basketball",league:"NBA",team:"Dallas Mavericks",player:"Dirk Nowitzki",year:2011,era:"10s",number:"41",brand:"Adidas",type:"Road",colorway:"Blue/White/Silver",design_background:"Balanced geometric striping and clean numerals fit late-2000s NBA template standards.",cultural_notes:"Linked with one of the most celebrated underdog title runs.",source:"Finals season kit documentation"},
-      {id:"nba-warriors-curry-2016-home",sport:"Basketball",league:"NBA",team:"Golden State Warriors",player:"Stephen Curry",year:2016,era:"10s",number:"30",brand:"Adidas",type:"Home",colorway:"White/Royal/Gold",design_background:"Refined bridge-era visual system with sharp type and modern trim rhythm.",cultural_notes:"Associated with pace-and-space and long-range shooting revolution.",source:"Team media kit"}
+    const db = [
+      {id:"epl-mufc-beckham-1999-home",sport:"Football",league:"Premier League",team:"Manchester United",player:"David Beckham",year:1999,era:"90s",number:"7",brand:"Umbro",type:"Home",colorway:"Red/White/Black",design_background:"Treble era shirt with sharp black-white trim, emblematic of late-90s Umbro design language.",cultural_notes:"Associated with Manchester United's historic 1998-99 treble season.",source:"Club archive",source_url:"https://www.manutd.com/",source_type:"club",credibility:95,last_verified:"2026-02-22"},
+      {id:"laliga-rma-zidane-2002-home",sport:"Football",league:"La Liga",team:"Real Madrid",player:"Zinedine Zidane",year:2002,era:"00s",number:"5",brand:"Adidas",type:"Home",colorway:"White/Gold/Black",design_background:"Minimal white base with elegant gold-black accents, fitting the early Galacticos identity.",cultural_notes:"Worn around the period of the iconic 2002 Champions League final volley.",source:"Adidas historical release",source_url:"https://www.adidas.com/",source_type:"brand",credibility:93,last_verified:"2026-02-22"},
+      {id:"laliga-fcb-messi-2011-home",sport:"Football",league:"La Liga",team:"FC Barcelona",player:"Lionel Messi",year:2011,era:"10s",number:"10",brand:"Nike",type:"Home",colorway:"Blue/Red",design_background:"Narrower stripe rhythm evolved from traditional blaugrana blocks for modern broadcast clarity.",cultural_notes:"Defines peak Guardiola-era positional play aesthetics.",source:"Club museum records",source_url:"https://www.fcbarcelona.com/",source_type:"club",credibility:94,last_verified:"2026-02-22"},
+      {id:"seriea-acm-maldini-2007-home",sport:"Football",league:"Serie A",team:"AC Milan",player:"Paolo Maldini",year:2007,era:"00s",number:"3",brand:"Adidas",type:"Home",colorway:"Red/Black",design_background:"Classic Rossoneri vertical striping with restrained sponsor integration.",cultural_notes:"Represents continuity of Milan defensive tradition across eras.",source:"UEFA media archive",source_url:"https://www.uefa.com/",source_type:"federation",credibility:90,last_verified:"2026-02-22"},
+      {id:"bundesliga-bvb-reus-2013-home",sport:"Football",league:"Bundesliga",team:"Borussia Dortmund",player:"Marco Reus",year:2013,era:"10s",number:"11",brand:"Puma",type:"Home",colorway:"Yellow/Black",design_background:"High-contrast yellow base optimized for high-tempo visual recognition.",cultural_notes:"Symbolic of Klopp-era intensity and pressing football culture.",source:"Puma archive",source_url:"https://about.puma.com/",source_type:"brand",credibility:88,last_verified:"2026-02-22"},
+      {id:"ligue1-psg-ibrahimovic-2014-home",sport:"Football",league:"Ligue 1",team:"Paris Saint-Germain",player:"Zlatan Ibrahimovic",year:2014,era:"10s",number:"10",brand:"Nike",type:"Home",colorway:"Navy/Red/White",design_background:"Hechter-inspired center stripe adaptation with modern slim cut.",cultural_notes:"Reflects PSG's transition to global fashion-sport identity.",source:"Club release notes",source_url:"https://en.psg.fr/",source_type:"club",credibility:89,last_verified:"2026-02-22"}
     ];
 
-    const KEY = "jerseyMuseumOwnedV1";
-    const catalog = document.getElementById("catalog");
-    const search = document.getElementById("search");
-    const era = document.getElementById("era");
-    const sort = document.getElementById("sort");
-    const tabAll = document.getElementById("tab-all");
-    const tabOwned = document.getElementById("tab-owned");
+    const KEY_OWN = "jerseyMuseumOwnedV1";
+    const KEY_DB = "jerseyMuseumDBV2";
+    const KEY_SYNC = "jerseyMuseumLastSyncV2";
 
-    let mode = "all";
-    const ownedSet = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+    const state = {
+      mode: "all",
+      items: JSON.parse(localStorage.getItem(KEY_DB) || "null") || db,
+      owned: new Set(JSON.parse(localStorage.getItem(KEY_OWN) || "[]"))
+    };
 
-    function saveOwned() {
-      localStorage.setItem(KEY, JSON.stringify([...ownedSet]));
+    const el = id => document.getElementById(id);
+    const riskClass = c => c >= 90 ? ["低风险","low"] : c >= 75 ? ["中风险","mid"] : ["高风险","high"];
+
+    function save() {
+      localStorage.setItem(KEY_DB, JSON.stringify(state.items));
+      localStorage.setItem(KEY_OWN, JSON.stringify([...state.owned]));
     }
 
-    function updateStats(items = collection) {
-      document.getElementById("stat-total").textContent = collection.length;
-      document.getElementById("stat-owned").textContent = ownedSet.size;
-      document.getElementById("stat-leagues").textContent = new Set(collection.map(i => i.league)).size;
-      document.getElementById("stat-updated").textContent = new Date().toLocaleDateString();
+    function keyOf(x) { return `${x.league}|${x.team}|${x.player}|${x.year}|${x.type}`.toLowerCase(); }
+
+    function mergeByTrust(base, incoming) {
+      const map = new Map(base.map(i => [keyOf(i), i]));
+      for (const item of incoming) {
+        const k = keyOf(item);
+        const old = map.get(k);
+        if (!old) { map.set(k, item); continue; }
+        const oldDate = new Date(old.last_verified || 0).getTime();
+        const newDate = new Date(item.last_verified || 0).getTime();
+        if ((item.credibility || 0) > (old.credibility || 0) || newDate > oldDate) {
+          map.set(k, { ...old, ...item });
+        }
+      }
+      return [...map.values()];
     }
 
-    function toggleOwned(id) {
-      if (ownedSet.has(id)) ownedSet.delete(id); else ownedSet.add(id);
-      saveOwned();
-      applyFilters();
+    async function syncFeed() {
+      try {
+        const resp = await fetch('./jersey-feed.json?ts=' + Date.now());
+        if (!resp.ok) throw new Error('feed load failed');
+        const feed = await resp.json();
+        state.items = mergeByTrust(state.items, feed);
+        localStorage.setItem(KEY_SYNC, new Date().toLocaleString());
+        save();
+        applyFilters();
+        alert(`同步完成：新增/合并 ${feed.length} 条（自动去重）`);
+      } catch (e) {
+        alert('同步失败：' + e.message + '（若在 file:// 打开，请用已部署网页或本地 http 服务）');
+      }
     }
+
+    function updateStats() {
+      el('stat-total').textContent = state.items.length;
+      el('stat-owned').textContent = state.owned.size;
+      el('stat-leagues').textContent = new Set(state.items.map(i => i.league)).size;
+      const avg = Math.round(state.items.reduce((s,i)=>s+(i.credibility||0),0) / Math.max(state.items.length,1));
+      el('stat-trust').textContent = avg;
+      el('stat-updated').textContent = localStorage.getItem(KEY_SYNC) || '未同步';
+    }
+
+    function toggleOwned(id) { state.owned.has(id) ? state.owned.delete(id) : state.owned.add(id); save(); applyFilters(); }
+    window.toggleOwned = toggleOwned;
 
     function render(items) {
-      if (!items.length) {
-        catalog.innerHTML = `<article class="card"><h3>暂无匹配条目</h3><p class="desc">换个关键词，或切回“全部”视图。</p></article>`;
-        return;
-      }
-      catalog.innerHTML = items.map(item => {
-        const owned = ownedSet.has(item.id);
-        return `
-          <article class="card">
-            <div class="tag">${item.year} · ${item.league} · ${item.team}</div>
-            <h3>${item.player}</h3>
-            <div class="subtitle">${item.brand} · ${item.type} · ${item.colorway}</div>
-            <div class="meta2">设计背景：${item.design_background}</div>
-            <p class="desc">文化注释：${item.cultural_notes}</p>
-            <div class="number">#${item.number}</div>
-            <div class="actions">
-              <button class="own-btn ${owned ? 'owned' : ''}" onclick="toggleOwned('${item.id}')">${owned ? '已拥有 ✓' : '标记为已拥有'}</button>
-            </div>
-          </article>
-        `;
-      }).join("");
+      const c = el('catalog');
+      if (!items.length) { c.innerHTML = '<article class="card"><h3>暂无结果</h3><p>换个筛选试试。</p></article>'; return; }
+      c.innerHTML = items.map(x => {
+        const owned = state.owned.has(x.id);
+        const [riskText, cls] = riskClass(x.credibility || 0);
+        return `<article class="card">
+          <div class="tag">${x.year} · ${x.league} · ${x.team}</div>
+          <h3>${x.player}</h3>
+          <div class="subtitle">${x.brand} · ${x.type} · ${x.colorway}</div>
+          <p class="meta2">设计背景：${x.design_background}</p>
+          <p class="desc">文化注释：${x.cultural_notes}</p>
+          <p class="src">来源：<a href="${x.source_url}" target="_blank" rel="noreferrer">${x.source}</a> · <span class="risk ${cls}">${riskText} / 可信度 ${x.credibility}</span></p>
+          <div class="number">#${x.number}</div>
+          <div class="actions"><button class="own-btn ${owned ? 'owned' : ''}" onclick="toggleOwned('${x.id}')">${owned ? '已拥有 ✓' : '标记为已拥有'}</button></div>
+        </article>`;
+      }).join('');
     }
 
     function applyFilters() {
-      const q = search.value.trim().toLowerCase();
-      const eraValue = era.value;
-      const sortValue = sort.value;
-
-      let items = collection.filter(item => {
-        const passEra = eraValue === "all" || item.era === eraValue;
-        const blob = `${item.player} ${item.team} ${item.brand} ${item.design_background} ${item.cultural_notes}`.toLowerCase();
-        const passQuery = !q || blob.includes(q);
-        const passMode = mode === "all" || ownedSet.has(item.id);
-        return passEra && passQuery && passMode;
+      const q = el('search').value.trim().toLowerCase();
+      const era = el('era').value;
+      const sort = el('sort').value;
+      let items = state.items.filter(x => {
+        const passEra = era === 'all' || x.era === era;
+        const blob = `${x.player} ${x.team} ${x.design_background} ${x.cultural_notes}`.toLowerCase();
+        const passQ = !q || blob.includes(q);
+        const passMode = state.mode === 'all' || state.owned.has(x.id);
+        return passEra && passQ && passMode;
       });
-
-      if (sortValue === "year-desc") items.sort((a, b) => b.year - a.year);
-      if (sortValue === "year-asc") items.sort((a, b) => a.year - b.year);
-      if (sortValue === "name") items.sort((a, b) => a.player.localeCompare(b.player));
-
-      updateStats(items);
+      if (sort === 'year-desc') items.sort((a,b)=>b.year-a.year);
+      if (sort === 'year-asc') items.sort((a,b)=>a.year-b.year);
+      if (sort === 'name') items.sort((a,b)=>a.player.localeCompare(b.player));
+      if (sort === 'cred') items.sort((a,b)=>(b.credibility||0)-(a.credibility||0));
+      updateStats();
       render(items);
     }
 
-    window.toggleOwned = toggleOwned;
-
-    [search, era, sort].forEach(el => el.addEventListener("input", applyFilters));
-    tabAll.addEventListener("click", () => {
-      mode = "all";
-      tabAll.classList.add("active");
-      tabOwned.classList.remove("active");
-      applyFilters();
-    });
-    tabOwned.addEventListener("click", () => {
-      mode = "owned";
-      tabOwned.classList.add("active");
-      tabAll.classList.remove("active");
-      applyFilters();
-    });
+    ['search','era','sort'].forEach(i => el(i).addEventListener('input', applyFilters));
+    el('tab-all').addEventListener('click', ()=>{ state.mode='all'; el('tab-all').classList.add('active'); el('tab-owned').classList.remove('active'); applyFilters(); });
+    el('tab-owned').addEventListener('click', ()=>{ state.mode='owned'; el('tab-owned').classList.add('active'); el('tab-all').classList.remove('active'); applyFilters(); });
+    el('sync').addEventListener('click', syncFeed);
 
     applyFilters();
   </script>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "epl-arsenal-henry-2004-home",
+    "sport": "Football",
+    "league": "Premier League",
+    "team": "Arsenal",
+    "player": "Thierry Henry",
+    "year": 2004,
+    "era": "00s",
+    "number": "14",
+    "brand": "Nike",
+    "type": "Home",
+    "colorway": "Red/White",
+    "design_background": "Invincibles-era clean red body with white sleeves retained Arsenal's classic silhouette.",
+    "cultural_notes": "Linked with unbeaten 2003-04 title campaign.",
+    "source": "Club history",
+    "source_url": "https://www.arsenal.com/",
+    "source_type": "club",
+    "credibility": 93,
+    "last_verified": "2026-02-22"
+  },
+  {
+    "id": "laliga-rma-zidane-2002-home",
+    "sport": "Football",
+    "league": "La Liga",
+    "team": "Real Madrid",
+    "player": "Zinedine Zidane",
+    "year": 2002,
+    "era": "00s",
+    "number": "5",
+    "brand": "Adidas",
+    "type": "Home",
+    "colorway": "White/Gold/Black",
+    "design_background": "Duplicate sample to test dedup merge logic.",
+    "cultural_notes": "Feed duplicate example.",
+    "source": "Adidas historical release",
+    "source_url": "https://www.adidas.com/",
+    "source_type": "brand",
+    "credibility": 93,
+    "last_verified": "2026-02-22"
+  }
+]
