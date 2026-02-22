@@ -1,1 +1,713 @@
-[]
+[
+  {
+    "id": "club-ac-milan-paolo-maldini-2007-home",
+    "image_url": "https://cdn.shopify.com/s/files/1/0611/8496/6894/files/722px-Logo_of_AC_Milan.svg_4ff34e67-8711-4aeb-a719-147cb3b34975.png?height=628&pad_color=ffffff&v=1645717570&width=1200",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.acmilan.com/en-me",
+    "source": "store.acmilan.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ac-milan-paolo-maldini-2007-away",
+    "image_url": "https://cdn.shopify.com/s/files/1/0611/8496/6894/files/722px-Logo_of_AC_Milan.svg_4ff34e67-8711-4aeb-a719-147cb3b34975.png?height=628&pad_color=ffffff&v=1645717570&width=1200",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.acmilan.com/en-me",
+    "source": "store.acmilan.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ac-milan-kaka-2007-home",
+    "image_url": "https://cdn.shopify.com/s/files/1/0611/8496/6894/files/722px-Logo_of_AC_Milan.svg_4ff34e67-8711-4aeb-a719-147cb3b34975.png?height=628&pad_color=ffffff&v=1645717570&width=1200",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.acmilan.com/en-me",
+    "source": "store.acmilan.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ac-milan-kaka-2007-away",
+    "image_url": "https://cdn.shopify.com/s/files/1/0611/8496/6894/files/722px-Logo_of_AC_Milan.svg_4ff34e67-8711-4aeb-a719-147cb3b34975.png?height=628&pad_color=ffffff&v=1645717570&width=1200",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.acmilan.com/en-me",
+    "source": "store.acmilan.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ac-milan-zlatan-ibrahimovic-2012-home",
+    "image_url": "https://cdn.shopify.com/s/files/1/0611/8496/6894/files/722px-Logo_of_AC_Milan.svg_4ff34e67-8711-4aeb-a719-147cb3b34975.png?height=628&pad_color=ffffff&v=1645717570&width=1200",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.acmilan.com/en-me",
+    "source": "store.acmilan.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-ac-milan-zlatan-ibrahimovic-2012-away",
+    "image_url": "https://cdn.shopify.com/s/files/1/0611/8496/6894/files/722px-Logo_of_AC_Milan.svg_4ff34e67-8711-4aeb-a719-147cb3b34975.png?height=628&pad_color=ffffff&v=1645717570&width=1200",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.acmilan.com/en-me",
+    "source": "store.acmilan.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-atletico-madrid-fernando-torres-2016-home",
+    "image_url": "https://shop.atleticodemadrid.com/on/demandware.static/Sites-atm-Site/-/default/dwc9be6a86/images/EscudoATM.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://shop.atleticodemadrid.com/es/home",
+    "source": "shop.atleticodemadrid.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-atletico-madrid-fernando-torres-2016-away",
+    "image_url": "https://shop.atleticodemadrid.com/on/demandware.static/Sites-atm-Site/-/default/dwc9be6a86/images/EscudoATM.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://shop.atleticodemadrid.com/es/home",
+    "source": "shop.atleticodemadrid.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-atletico-madrid-antoine-griezmann-2018-home",
+    "image_url": "https://shop.atleticodemadrid.com/on/demandware.static/Sites-atm-Site/-/default/dwc9be6a86/images/EscudoATM.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://shop.atleticodemadrid.com/es/home",
+    "source": "shop.atleticodemadrid.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-atletico-madrid-antoine-griezmann-2018-away",
+    "image_url": "https://shop.atleticodemadrid.com/on/demandware.static/Sites-atm-Site/-/default/dwc9be6a86/images/EscudoATM.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://shop.atleticodemadrid.com/es/home",
+    "source": "shop.atleticodemadrid.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-atletico-madrid-koke-2021-home",
+    "image_url": "https://shop.atleticodemadrid.com/on/demandware.static/Sites-atm-Site/-/default/dwc9be6a86/images/EscudoATM.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://shop.atleticodemadrid.com/es/home",
+    "source": "shop.atleticodemadrid.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-atletico-madrid-koke-2021-away",
+    "image_url": "https://shop.atleticodemadrid.com/on/demandware.static/Sites-atm-Site/-/default/dwc9be6a86/images/EscudoATM.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://shop.atleticodemadrid.com/es/home",
+    "source": "shop.atleticodemadrid.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-chelsea-frank-lampard-2009-home",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-chelsea-frank-lampard-2009-away",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-chelsea-didier-drogba-2012-home",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-chelsea-didier-drogba-2012-away",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-chelsea-eden-hazard-2017-home",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-chelsea-eden-hazard-2017-away",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-manchester-united-david-beckham-1999-away",
+    "image_url": "https://a.storyblok.com/f/274736/3840x1500/6a2d5bb6a1/hero-banner-desktop_v6.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.manutd.com/en",
+    "source": "store.manutd.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-manchester-united-wayne-rooney-2008-home",
+    "image_url": "https://a.storyblok.com/f/274736/3840x1500/6a2d5bb6a1/hero-banner-desktop_v6.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.manutd.com/en",
+    "source": "store.manutd.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-manchester-united-wayne-rooney-2008-away",
+    "image_url": "https://a.storyblok.com/f/274736/3840x1500/6a2d5bb6a1/hero-banner-desktop_v6.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.manutd.com/en",
+    "source": "store.manutd.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-manchester-united-cristiano-ronaldo-2008-home",
+    "image_url": "https://a.storyblok.com/f/274736/3840x1500/6a2d5bb6a1/hero-banner-desktop_v6.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.manutd.com/en",
+    "source": "store.manutd.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-manchester-united-cristiano-ronaldo-2008-away",
+    "image_url": "https://a.storyblok.com/f/274736/3840x1500/6a2d5bb6a1/hero-banner-desktop_v6.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.manutd.com/en",
+    "source": "store.manutd.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-paris-saint-germain-zlatan-ibrahimovic-2014-home",
+    "image_url": "https://store.psg.fr/content/assets/__0-570754350858.493.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.psg.fr/fr/",
+    "source": "store.psg.fr",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-paris-saint-germain-zlatan-ibrahimovic-2014-away",
+    "image_url": "https://store.psg.fr/content/assets/__0-570754350858.493.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.psg.fr/fr/",
+    "source": "store.psg.fr",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-paris-saint-germain-neymar-jr-2020-home",
+    "image_url": "https://store.psg.fr/content/assets/__0-570754350858.493.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.psg.fr/fr/",
+    "source": "store.psg.fr",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-paris-saint-germain-neymar-jr-2020-away",
+    "image_url": "https://store.psg.fr/content/assets/__0-570754350858.493.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.psg.fr/fr/",
+    "source": "store.psg.fr",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-paris-saint-germain-kylian-mbappe-2022-home",
+    "image_url": "https://store.psg.fr/content/assets/__0-570754350858.493.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.psg.fr/fr/",
+    "source": "store.psg.fr",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "club-paris-saint-germain-kylian-mbappe-2022-away",
+    "image_url": "https://store.psg.fr/content/assets/__0-570754350858.493.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.psg.fr/fr/",
+    "source": "store.psg.fr",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-brazil-ronaldo-2002-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-brazil-ronaldo-2002-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-brazil-ronaldinho-2002-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-brazil-ronaldinho-2002-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-brazil-neymar-jr-2014-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-brazil-neymar-jr-2014-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-croatia-luka-modric-2018-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-croatia-luka-modric-2018-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-croatia-ivan-rakitic-2018-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-croatia-ivan-rakitic-2018-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-croatia-mario-mandzukic-2018-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-croatia-mario-mandzukic-2018-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-france-zinedine-zidane-1998-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-france-zinedine-zidane-1998-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-france-antoine-griezmann-2018-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-france-antoine-griezmann-2018-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-france-kylian-mbappe-2022-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-france-kylian-mbappe-2022-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-italy-fabio-cannavaro-2006-home",
+    "image_url": "https://us.puma.com/assets/puma-logo-1200x630.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://us.puma.com/us/en",
+    "source": "us.puma.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-italy-fabio-cannavaro-2006-away",
+    "image_url": "https://us.puma.com/assets/puma-logo-1200x630.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://us.puma.com/us/en",
+    "source": "us.puma.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-italy-francesco-totti-2006-home",
+    "image_url": "https://us.puma.com/assets/puma-logo-1200x630.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://us.puma.com/us/en",
+    "source": "us.puma.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-italy-francesco-totti-2006-away",
+    "image_url": "https://us.puma.com/assets/puma-logo-1200x630.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://us.puma.com/us/en",
+    "source": "us.puma.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-italy-andrea-pirlo-2012-home",
+    "image_url": "https://us.puma.com/assets/puma-logo-1200x630.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://us.puma.com/us/en",
+    "source": "us.puma.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-italy-andrea-pirlo-2012-away",
+    "image_url": "https://us.puma.com/assets/puma-logo-1200x630.jpg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://us.puma.com/us/en",
+    "source": "us.puma.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-korea-republic-park-ji-sung-2010-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-korea-republic-park-ji-sung-2010-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-korea-republic-ki-sung-yueng-2014-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-korea-republic-ki-sung-yueng-2014-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-korea-republic-son-heung-min-2022-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-korea-republic-son-heung-min-2022-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-netherlands-wesley-sneijder-2010-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-netherlands-wesley-sneijder-2010-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-netherlands-arjen-robben-2014-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-netherlands-arjen-robben-2014-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-netherlands-virgil-van-dijk-2022-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-netherlands-virgil-van-dijk-2022-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-portugal-luis-figo-2004-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-portugal-luis-figo-2004-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-portugal-cristiano-ronaldo-2016-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-portugal-cristiano-ronaldo-2016-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-portugal-bruno-fernandes-2022-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-portugal-bruno-fernandes-2022-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-usa-landon-donovan-2010-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-usa-landon-donovan-2010-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-usa-clint-dempsey-2014-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-usa-clint-dempsey-2014-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-usa-christian-pulisic-2022-home",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "country-usa-christian-pulisic-2022-away",
+    "image_url": "https://www.nike.com/android-icon-192x192.png",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://www.nike.com/w/mens-soccer-jerseys-1gdj0z3a41eznik1",
+    "source": "www.nike.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "live-0318fd2642-home",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  },
+  {
+    "id": "live-0318fd2642-away",
+    "image_url": "https://store.chelseafc.com/content/assets/__0-1127603024506.849.svg",
+    "caption": "图片：官方商城商品图（来源页）",
+    "source_url": "https://store.chelseafc.com/en/",
+    "source": "store.chelseafc.com",
+    "image_quality": "jersey_product",
+    "confidence": 0.86
+  }
+]
