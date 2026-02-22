@@ -98,6 +98,7 @@ function mapToRecord(item) {
     brand: 'Unknown',
     type,
     colorway: 'TBD',
+    image_url: `https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=${encodeURIComponent(info.entity + ' ' + year + ' ' + type + ' Kit')}`,
     design_background: item.title,
     cultural_notes: strip(item.description).slice(0, 180),
     source: item.source,
