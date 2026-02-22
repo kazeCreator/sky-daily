@@ -5,7 +5,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A2013_friendly_match%2C_Persepolis_Legends_v_AC_Milan_Glorie_(59).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ac-milan-paolo-maldini-2007-away",
@@ -13,7 +14,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A2013_friendly_match%2C_Persepolis_Legends_v_AC_Milan_Glorie_(59).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ac-milan-kaka-2007-home",
@@ -21,7 +23,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKaka_of_AC_Milan%2C_April_19%2C_2009.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ac-milan-kaka-2007-away",
@@ -29,7 +32,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKaka_of_AC_Milan%2C_April_19%2C_2009.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ac-milan-zlatan-ibrahimovic-2012-home",
@@ -37,7 +41,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJuventus_v_AC_Milan_(ca._1950s)_-_Nils_Liedholm_and_Carlo_Parola.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ac-milan-zlatan-ibrahimovic-2012-away",
@@ -45,7 +50,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_acm8586al.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-ajax-johan-cruyff-1973-home",
@@ -53,7 +59,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAjax_tegen_FC_Utrecht_7-1%3B_Johan_Cruyff_maakt_derde_doelpunt.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ajax-johan-cruyff-1973-away",
@@ -61,7 +68,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAjax_tegen_FC_Utrecht_7-1%3B_Johan_Cruyff_maakt_derde_doelpunt.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ajax-wesley-sneijder-2007-away",
@@ -69,7 +77,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_shorts_ajax0708a2.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-ajax-dusan-tadic-2019-home",
@@ -77,7 +86,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AGAE_-_Ajax_-_52788073421_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ajax-dusan-tadic-2019-away",
@@ -85,7 +95,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AGAE_-_Ajax_-_52788073421_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-arsenal-thierry-henry-2004-home",
@@ -93,7 +104,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AThierry_Henry_Arsenal_U19s_Vs_Olympiacos_(21838046615).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-arsenal-thierry-henry-2004-away",
@@ -101,7 +113,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AThierry_Henry_Arsenal_U19s_Vs_Olympiacos_(21838046615).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-arsenal-cesc-fabregas-2006-home",
@@ -109,7 +122,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACesc_F%C3%A0bregas_Anderson.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-arsenal-cesc-fabregas-2006-away",
@@ -117,7 +131,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACesc_F%C3%A0bregas_Anderson.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-arsenal-bukayo-saka-2023-home",
@@ -125,7 +140,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3APremier_League_Newcastle-Arsenal_2023-05-07_06.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-arsenal-bukayo-saka-2023-away",
@@ -133,7 +149,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3APremier_League_Newcastle-Arsenal_2023-05-07_06.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-atletico-madrid-fernando-torres-2016-home",
@@ -141,7 +158,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFernando_Torres_Atl%C3%A9tico_Madrid.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-atletico-madrid-fernando-torres-2016-away",
@@ -149,7 +167,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFernando_Torres_Atl%C3%A9tico_Madrid.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-atletico-madrid-antoine-griezmann-2018-home",
@@ -157,7 +176,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFC_Salzburg_vs._Atletico_Madrid_(2025-01-29_UEFA_Championsleague)_55.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-atletico-madrid-antoine-griezmann-2018-away",
@@ -165,7 +185,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFC_Salzburg_vs._Atletico_Madrid_(2025-01-29_UEFA_Championsleague)_55.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-atletico-madrid-koke-2021-home",
@@ -173,7 +194,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFC_Salzburg_vs._Atletico_Madrid_(2025-01-29_UEFA_Championsleague)_55.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-atletico-madrid-koke-2021-away",
@@ -181,7 +203,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFC_Salzburg_vs._Atletico_Madrid_(2025-01-29_UEFA_Championsleague)_55.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-bayern-munich-thomas-muller-2013-home",
@@ -189,7 +212,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AThomas_M%C3%BCller%2C_Germany_national_football_team_(02).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-bayern-munich-thomas-muller-2013-away",
@@ -197,7 +221,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AThomas_M%C3%BCller%2C_Germany_national_football_team_(02).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-bayern-munich-arjen-robben-2013-home",
@@ -205,7 +230,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AArjen_Robben_v_Shakhtar_2015.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-bayern-munich-arjen-robben-2013-away",
@@ -213,7 +239,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AArjen_Robben_v_Shakhtar_2015.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-bayern-munich-harry-kane-2024-home",
@@ -221,7 +248,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_bayern2425hl.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-bayern-munich-harry-kane-2024-away",
@@ -229,7 +257,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_shorts_Bayern1213a2.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-benfica-rui-costa-2008-home",
@@ -237,7 +266,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARui_Costa.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-benfica-rui-costa-2008-away",
@@ -245,7 +275,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARui_Costa.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-benfica-angel-di-maria-2010-home",
@@ -253,7 +284,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABenficaCampe%C3%A3o2009-10_(2).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-benfica-angel-di-maria-2010-away",
@@ -261,7 +293,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_left_arm_benfica1011a.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-boca-juniors-martin-palermo-2000-home",
@@ -269,7 +302,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMartin_Palermo.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-boca-juniors-martin-palermo-2000-away",
@@ -277,7 +311,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMartin_Palermo.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-boca-juniors-juan-riquelme-2007-home",
@@ -285,7 +320,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARiquelme_boca_vs_espanyol_2011.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-boca-juniors-juan-riquelme-2007-away",
@@ -293,7 +329,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARiquelme_boca_vs_espanyol_2011.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-boca-juniors-carlos-tevez-2016-home",
@@ -301,7 +338,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACarlos_T%C3%A9vez'13.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-boca-juniors-carlos-tevez-2016-away",
@@ -309,7 +347,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACarlos_T%C3%A9vez'13.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-borussia-dortmund-marco-reus-2013-home",
@@ -317,7 +356,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABorussia_Dortmund_Goal_Celebration.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-borussia-dortmund-marco-reus-2013-away",
@@ -325,7 +365,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABorussia_Dortmund_Goal_Celebration.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-borussia-dortmund-mats-hummels-2016-home",
@@ -333,7 +374,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMats_Hummels%2C_Germany_national_football_team_(02).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-borussia-dortmund-mats-hummels-2016-away",
@@ -341,7 +383,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMats_Hummels%2C_Germany_national_football_team_(02).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-chelsea-frank-lampard-2009-home",
@@ -349,7 +392,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMALAYSIA_VS_CHELSEA_2011_(5969060403).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-chelsea-frank-lampard-2009-away",
@@ -357,7 +401,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMALAYSIA_VS_CHELSEA_2011_(5969060403).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-chelsea-didier-drogba-2012-home",
@@ -365,7 +410,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ADidier_Drogba_Champions_League_Winner_2012.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-chelsea-didier-drogba-2012-away",
@@ -373,7 +419,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ADidier_Drogba_Champions_League_Winner_2012.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-chelsea-eden-hazard-2017-home",
@@ -381,7 +428,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AChelsea_6_Maribor_0_Champions_League_(15599549805).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-chelsea-eden-hazard-2017-away",
@@ -389,7 +437,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AChelsea_6_Maribor_0_Champions_League_(15599549805).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-fc-barcelona-ronaldinho-2006-home",
@@ -397,7 +446,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARonaldinho-fcb-2005-2006-home-shirt.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-fc-barcelona-ronaldinho-2006-away",
@@ -405,7 +455,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARonaldinho-fcb-2005-2006-home-shirt.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-fc-barcelona-xavi-2010-home",
@@ -413,7 +464,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3APuyol_Xavi_Messi_FC_Barcelona_Team_of_the_Year_2011.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-fc-barcelona-xavi-2010-away",
@@ -421,7 +473,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3APuyol_Xavi_Messi_FC_Barcelona_Team_of_the_Year_2011.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-fc-barcelona-lionel-messi-2011-home",
@@ -429,7 +482,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALionel_Messi_of_FC_Barcelona%2C_April_11%2C_2009.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-fc-barcelona-lionel-messi-2011-away",
@@ -437,7 +491,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALionel_Messi_of_FC_Barcelona%2C_April_11%2C_2009.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-miami-lionel-messi-2024-home",
@@ -445,7 +500,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AInter_Miami_vs._Real_Salt_Lake_13.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-miami-lionel-messi-2024-away",
@@ -453,7 +509,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AInter_Miami_vs._Real_Salt_Lake_13.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-miami-luis-suarez-2024-home",
@@ -461,7 +518,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AInter_Miami_vs._Real_Salt_Lake_13.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-miami-luis-suarez-2024-away",
@@ -469,7 +527,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AInter_Miami_vs._Real_Salt_Lake_13.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-miami-sergio-busquets-2024-home",
@@ -477,7 +536,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AInter_Miami_vs._Real_Salt_Lake_29.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-miami-sergio-busquets-2024-away",
@@ -485,7 +545,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AInter_Miami_vs._Real_Salt_Lake_29.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-milan-javier-zanetti-2010-home",
@@ -493,7 +554,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AClub_Am%C3%A9rica_v_Inter_Milan_-_2009_-_Javier_Zanetti_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-milan-javier-zanetti-2010-away",
@@ -501,7 +563,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AClub_Am%C3%A9rica_v_Inter_Milan_-_2009_-_Javier_Zanetti_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-milan-diego-milito-2010-home",
@@ -509,7 +572,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_left_arm_inter1011h.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-inter-milan-diego-milito-2010-away",
@@ -517,7 +581,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_inter1011a.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-inter-milan-lautaro-martinez-2023-away",
@@ -525,7 +590,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_inter2223A2.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-juventus-pavel-nedved-2003-home",
@@ -533,7 +599,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJUVENTUS_Loung2.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-juventus-pavel-nedved-2003-away",
@@ -541,7 +608,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJUVENTUS_Loung2.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-juventus-alessandro-del-piero-2006-home",
@@ -549,7 +617,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJuventus_v_Chievo%2C_5_April_2009_-_Alessandro_Del_Piero_(1).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-juventus-alessandro-del-piero-2006-away",
@@ -557,7 +626,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJuventus_v_Chievo%2C_5_April_2009_-_Alessandro_Del_Piero_(1).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-juventus-gianluigi-buffon-2017-home",
@@ -565,7 +635,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJuventus_vs_Malmoe%2C_2014%2C_Gianluigi_Buffon.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-juventus-gianluigi-buffon-2017-away",
@@ -573,7 +644,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJuventus_vs_Malmoe%2C_2014%2C_Gianluigi_Buffon.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-liverpool-steven-gerrard-2005-home",
@@ -581,7 +653,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALiverpool_footballer_Steven_Gerrard.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-liverpool-steven-gerrard-2005-away",
@@ -589,7 +662,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALiverpool_footballer_Steven_Gerrard.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-liverpool-fernando-torres-2009-home",
@@ -597,7 +671,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFernando_Torres_Liverpool_v._Middlesbrough.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-liverpool-fernando-torres-2009-away",
@@ -605,7 +680,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFernando_Torres_Liverpool_v._Middlesbrough.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-liverpool-mohamed-salah-2022-home",
@@ -613,7 +689,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMohamed_Salah_2022.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-liverpool-mohamed-salah-2022-away",
@@ -621,7 +698,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMohamed_Salah_2022.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-manchester-united-david-beckham-1999-home",
@@ -629,7 +707,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ADavid_Beckham_taking_a_free_kick_-_geograph.org.uk_-_7626153.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-manchester-united-david-beckham-1999-away",
@@ -637,7 +716,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ADavid_Beckham_taking_a_free_kick_-_geograph.org.uk_-_7626153.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-manchester-united-wayne-rooney-2008-home",
@@ -645,7 +725,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AWayne_Rooney_Signature.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-manchester-united-wayne-rooney-2008-away",
@@ -653,7 +734,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AWayne_Rooney_Signature.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-manchester-united-cristiano-ronaldo-2008-home",
@@ -661,7 +743,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACristiano_Ronaldo_of_Manchester_United%2C_November_5%2C_2008.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-manchester-united-cristiano-ronaldo-2008-away",
@@ -669,7 +752,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACristiano_Ronaldo_of_Manchester_United%2C_November_5%2C_2008.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-paris-saint-germain-zlatan-ibrahimovic-2014-home",
@@ -677,7 +761,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AChelsea_FC_vs_Paris_Saint-Germain%2C_9_March_2016_(25041221743).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-paris-saint-germain-zlatan-ibrahimovic-2014-away",
@@ -685,7 +770,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AChelsea_FC_vs_Paris_Saint-Germain%2C_9_March_2016_(25041221743).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-paris-saint-germain-neymar-jr-2020-home",
@@ -693,7 +779,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ANeymar_Jr_presentation_-_Press_conference_for_PSG_002.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-paris-saint-germain-neymar-jr-2020-away",
@@ -701,7 +788,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ANeymar_Jr_presentation_-_Press_conference_for_PSG_002.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-paris-saint-germain-kylian-mbappe-2022-home",
@@ -709,7 +797,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKylian_Mbappe_2017.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-paris-saint-germain-kylian-mbappe-2022-away",
@@ -717,7 +806,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKylian_Mbappe_2017.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-real-madrid-raul-2001-home",
@@ -725,7 +815,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARaul_Gonzalez_2012_2.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-real-madrid-raul-2001-away",
@@ -733,7 +824,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARaul_Gonzalez_2012_2.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-real-madrid-zinedine-zidane-2002-home",
@@ -741,7 +833,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AZinedine_Zidane's_1998_Ballon_d'Or_trophy%2C_Real_Madrid_Museum%2C_Santiago_Bernab%C3%A9u%2C_Madrid%2C_Spain_(Ank_Kumar%2C_Infosys_Limited)_01.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-real-madrid-zinedine-zidane-2002-away",
@@ -749,7 +842,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AZinedine_Zidane's_1998_Ballon_d'Or_trophy%2C_Real_Madrid_Museum%2C_Santiago_Bernab%C3%A9u%2C_Madrid%2C_Spain_(Ank_Kumar%2C_Infosys_Limited)_01.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-real-madrid-karim-benzema-2022-home",
@@ -757,7 +851,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKarim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "club-real-madrid-karim-benzema-2022-away",
@@ -765,7 +860,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKarim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-argentina-diego-maradona-1986-home",
@@ -773,7 +869,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMaradona_1986_vs_italy.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-argentina-diego-maradona-1986-away",
@@ -781,7 +878,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AMaradona_1986_vs_italy.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-argentina-lionel-messi-2022-home",
@@ -789,7 +887,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASuisse_vs_Argentine_-_Granit_Xhaka_%26_Lionel_Messi.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-argentina-lionel-messi-2022-away",
@@ -797,7 +896,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASuisse_vs_Argentine_-_Granit_Xhaka_%26_Lionel_Messi.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-argentina-angel-di-maria-2022-home",
@@ -805,7 +905,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAngel_di_Maria-Portugal_vs._Argentina.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-argentina-angel-di-maria-2022-away",
@@ -813,7 +914,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAngel_di_Maria-Portugal_vs._Argentina.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-belgium-eden-hazard-2018-home",
@@ -821,7 +923,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AEden_Hazard_Belgium.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-belgium-eden-hazard-2018-away",
@@ -829,7 +932,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AEden_Hazard_Belgium.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-belgium-kevin-de-bruyne-2022-home",
@@ -837,7 +941,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKevin_De_Bruyne_WC2022.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-belgium-kevin-de-bruyne-2022-away",
@@ -845,7 +950,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKevin_De_Bruyne_WC2022.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-belgium-romelu-lukaku-2022-home",
@@ -853,7 +959,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARomelu_Lukaku_with_Belgium_before_game_v_Brazil%2C_6_July_2018.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-brazil-ronaldo-2002-home",
@@ -861,7 +968,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_brazilh0204.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-brazil-ronaldinho-2002-home",
@@ -869,7 +977,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_brazilh0204.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-brazil-neymar-jr-2014-home",
@@ -877,7 +986,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-brazil-neymar-jr-2014-away",
@@ -885,7 +995,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-croatia-luka-modric-2018-home",
@@ -893,7 +1004,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_nikefootballcroatia2018h.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-croatia-luka-modric-2018-away",
@@ -901,7 +1013,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_nikefootballcroatia2018a2.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-croatia-ivan-rakitic-2018-home",
@@ -909,7 +1022,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AIvan_Rakiti%C4%87_and_Dejan_Lovren_during_a_Croatia_training_session%2C_in_June_2018.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-croatia-ivan-rakitic-2018-away",
@@ -917,7 +1031,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AIvan_Rakiti%C4%87_and_Dejan_Lovren_during_a_Croatia_training_session%2C_in_June_2018.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-croatia-mario-mandzukic-2018-home",
@@ -925,7 +1040,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_nikefootballcroatia2018h.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-croatia-mario-mandzukic-2018-away",
@@ -933,7 +1049,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_nikefootballcroatia2018a2.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-england-david-beckham-2002-home",
@@ -941,7 +1058,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASpain_vs_England.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-england-steven-gerrard-2006-home",
@@ -949,7 +1067,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABeamish_Museum_Home_Farm%2C_29_July_2006.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-england-steven-gerrard-2006-away",
@@ -957,7 +1076,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASteven_Gerrard_and_Federico_Balzaretti_England-Italy_Euro_2012.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-england-harry-kane-2022-home",
@@ -965,7 +1085,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AHarry_Kane_England_cap_at_the_London_Museum.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-france-zinedine-zidane-1998-home",
@@ -973,7 +1094,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAir_France._Compagnie_a%C3%A9rienne_officielle_de_la_Coupe_du_Monde_de_Football_1998_-_affiche_-_btv1b10109625c.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-france-zinedine-zidane-1998-away",
@@ -981,7 +1103,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_france1998a.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-france-antoine-griezmann-2018-home",
@@ -989,7 +1112,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAntoine_Griezmann_2018.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-france-antoine-griezmann-2018-away",
@@ -997,7 +1121,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAntoine_Griezmann_2018.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-france-kylian-mbappe-2022-home",
@@ -1005,7 +1130,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A17-4-21%2C_stade_Elisabeth%2C_%C3%A9quipe_En_Avant_(championnat_de_France_de_football_f%C3%A9minin)_-_btv1b530541585.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-germany-miroslav-klose-2014-home",
@@ -1013,7 +1139,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AHuge_police_prescence_to_get_fans_back_home_after_a_football_game_-_Jena_-_Thuringia%2C_Germany_(16343823167).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-germany-miroslav-klose-2014-away",
@@ -1021,7 +1148,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ATraining_Germany_national_team_before_the_match_against_Brazil_at_the_FIFA_World_Cup_2014-07-07_(5).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-germany-philipp-lahm-2014-home",
@@ -1029,7 +1157,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3APhilipp_Lahm%2C_Germany_national_football_team_(03).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-germany-thomas-muller-2014-home",
@@ -1037,7 +1166,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AHuge_police_prescence_to_get_fans_back_home_after_a_football_game_-_Jena_-_Thuringia%2C_Germany_(16343823167).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-germany-thomas-muller-2014-away",
@@ -1045,7 +1175,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Thomas_M%C3%BCller_01_edit.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-italy-fabio-cannavaro-2006-home",
@@ -1053,7 +1184,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A1934_FIFA_World_Cup_Final_-_Italy_v_Czechoslovakia_-_Pozzo%2C_Monzeglio%2C_Bertolini%2C_Combi%2C_Monti_and_Carcano.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-italy-fabio-cannavaro-2006-away",
@@ -1061,7 +1193,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFabio_Cannavaro_Napoli_1990.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-italy-francesco-totti-2006-home",
@@ -1069,7 +1202,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A1934_FIFA_World_Cup_Final_-_Italy_v_Czechoslovakia_-_Pozzo%2C_Monzeglio%2C_Bertolini%2C_Combi%2C_Monti_and_Carcano.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-italy-francesco-totti-2006-away",
@@ -1077,7 +1211,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AItaly_vs_France_-_FIFA_World_Cup_2006_final_-_Francesco_Totti.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-italy-andrea-pirlo-2012-home",
@@ -1085,7 +1220,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARinaldo_Martino_-_1949_-_Italian_Team_(Training_Session).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-japan-hidetoshi-nakata-1998-home",
@@ -1093,7 +1229,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_japan98.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-japan-hidetoshi-nakata-1998-away",
@@ -1101,7 +1238,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AHidetoshi_Nakata_at_Matsuda_tribute_match20120122.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-japan-keisuke-honda-2010-home",
@@ -1109,7 +1247,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_socks_JPN_2010_HOME.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-japan-keisuke-honda-2010-away",
@@ -1117,7 +1256,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_shorts_JPN_2010_AWAY.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-japan-takefusa-kubo-2022-home",
@@ -1125,7 +1265,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ATakefusa_Kubo_2019.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-japan-takefusa-kubo-2022-away",
@@ -1133,7 +1274,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_shorts_TOCHIGI_CITY_2022_AWAY_FP.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-korea-republic-park-ji-sung-2010-home",
@@ -1141,7 +1283,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A2012_Olympic_Football_Korea_Republic_vs_Great_Britain_(6).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-korea-republic-park-ji-sung-2010-away",
@@ -1149,7 +1292,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A2012_Olympic_Football_Korea_Republic_vs_Great_Britain_(6).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-korea-republic-ki-sung-yueng-2014-home",
@@ -1157,7 +1301,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_shorts_southkorea14h.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-korea-republic-ki-sung-yueng-2014-away",
@@ -1165,7 +1310,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A2012_Olympic_Football_Korea_Republic_vs_Great_Britain_(1).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-korea-republic-son-heung-min-2022-away",
@@ -1173,7 +1319,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASon_Heung-min_-_2022_(52552243725)_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-netherlands-wesley-sneijder-2010-home",
@@ -1181,7 +1328,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AWesley_Sneijder_(15487233555)_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-portugal-luis-figo-2004-away",
@@ -1189,7 +1337,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALuis_Figo_19-10-06.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-portugal-cristiano-ronaldo-2016-home",
@@ -1197,7 +1346,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACristiano_Ronaldo_Portugal_vs_Brazil.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-spain-andres-iniesta-2010-home",
@@ -1205,7 +1355,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAdidas_Spain_national_football_team_home_jersey.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-spain-andres-iniesta-2010-away",
@@ -1213,7 +1364,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASpain_-_Chile_-_10-09-2013_-_Geneva_-_Andres_Iniesta_4.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-spain-xavi-2010-home",
@@ -1221,7 +1373,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAdidas_Spain_national_football_team_home_jersey.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-spain-xavi-2010-away",
@@ -1229,7 +1382,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAdidas_Spain_national_football_team_home_jersey.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-spain-david-villa-2010-home",
@@ -1237,7 +1391,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAdidas_Spain_national_football_team_home_jersey.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-spain-david-villa-2010-away",
@@ -1245,7 +1400,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASpain_-_Chile_-_10-09-2013_-_Geneva_-_David_Villa.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-usa-landon-donovan-2010-home",
@@ -1253,7 +1409,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A2013_Cosmos_home_match.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-usa-landon-donovan-2010-away",
@@ -1261,7 +1418,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ANike_USA_national_soccer_team_away_jersey.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-usa-clint-dempsey-2014-home",
@@ -1269,7 +1427,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_left_arm_CHIVAS-USA_14h.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "country-usa-christian-pulisic-2022-home",
@@ -1277,7 +1436,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAlamodome_Conference_USA_Championship.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-usa-christian-pulisic-2022-away",
@@ -1285,7 +1445,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_usa94a.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   },
   {
     "id": "live-cb604efaed-home",
@@ -1293,7 +1454,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AJuventus_v_Derby_County_1973-04-11_Spinosi%2C_Zoff%2C_Powell%2C_Morini.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-ajax-wesley-sneijder-2007-home",
@@ -1301,7 +1463,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AWesley_Sneijder_'14-15.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-benfica-joao-neves-2024-home",
@@ -1309,7 +1472,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABarreirense_vs_Benfica_2005.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-benfica-joao-neves-2024-away",
@@ -1317,7 +1481,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABarreirense_vs_Benfica_2005.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-borussia-dortmund-erling-haaland-2021-home",
@@ -1325,7 +1490,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AErling_Haaland_2023.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-borussia-dortmund-erling-haaland-2021-away",
@@ -1333,7 +1499,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AErling_Haaland_2023.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-flamengo-petkovic-2009-home",
@@ -1341,7 +1508,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ANikola_Petkovic_(musician%2C_2).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-flamengo-petkovic-2009-away",
@@ -1349,7 +1517,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ANikola_Petkovic_(musician%2C_2).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-flamengo-gabigol-2019-home",
@@ -1357,7 +1526,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AGabigol_before_game.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-flamengo-gabigol-2019-away",
@@ -1365,7 +1535,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AGabigol_before_game.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-flamengo-bruno-henrique-2020-home",
@@ -1373,7 +1544,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABARCELONA-SANTOS_-_Bruno_Henrique.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-flamengo-bruno-henrique-2020-away",
@@ -1381,7 +1553,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABARCELONA-SANTOS_-_Bruno_Henrique.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "club-inter-milan-lautaro-martinez-2023-home",
@@ -1389,7 +1562,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AARGENTINA_VS_VENEZUELA_Lautaro_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-belgium-romelu-lukaku-2022-away",
@@ -1397,7 +1571,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARomelu_Lukaku_with_Belgium_before_game_v_Brazil%2C_6_July_2018.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-brazil-ronaldo-2002-away",
@@ -1405,7 +1580,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARonaldo_2002_cropped2.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-brazil-ronaldinho-2002-away",
@@ -1413,7 +1589,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ARonaldinho_in_2019.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-england-david-beckham-2002-away",
@@ -1421,7 +1598,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASpain_vs_England.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-england-harry-kane-2022-away",
@@ -1429,7 +1607,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AHarry_Kane_England_cap_at_the_London_Museum.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-france-kylian-mbappe-2022-away",
@@ -1437,7 +1616,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKylian_Mbapp%C3%A9_France.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-germany-philipp-lahm-2014-away",
@@ -1445,7 +1625,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3APhilipp_Lahm%2C_Germany_national_football_team_(03).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-italy-andrea-pirlo-2012-away",
@@ -1453,7 +1634,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAndrea_Pirlo_Euro_2012_vs_England_01.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-korea-republic-son-heung-min-2022-home",
@@ -1461,7 +1643,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ASon_Heung-min_-_2022_(52552243725)_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-netherlands-wesley-sneijder-2010-away",
@@ -1469,7 +1652,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AWesley_Sneijder_(15487233555)_(cropped).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-netherlands-arjen-robben-2014-home",
@@ -1477,7 +1661,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AArjen_Robben_(15300557428).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-netherlands-arjen-robben-2014-away",
@@ -1485,7 +1670,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AArjen_Robben_(15300557428).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-netherlands-virgil-van-dijk-2022-home",
@@ -1493,7 +1679,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AVirgil_van_Dijk_2015.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-netherlands-virgil-van-dijk-2022-away",
@@ -1501,7 +1688,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AVirgil_van_Dijk_2015.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-portugal-luis-figo-2004-home",
@@ -1509,7 +1697,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALuis_Figo_19-10-06.JPG",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-portugal-cristiano-ronaldo-2016-away",
@@ -1517,7 +1706,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACristiano_Ronaldo_Portugal_vs_Brazil.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-portugal-bruno-fernandes-2022-home",
@@ -1525,7 +1715,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AIran_vs_Portugal_2018_FIFA_World_Cup_(1)_(Bruno_Fernandes).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-portugal-bruno-fernandes-2022-away",
@@ -1533,7 +1724,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AIran_vs_Portugal_2018_FIFA_World_Cup_(1)_(Bruno_Fernandes).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "country-usa-clint-dempsey-2014-away",
@@ -1541,7 +1733,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AClint_Dempsey_USA_training.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-1db05862c4-home",
@@ -1549,7 +1742,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFC_Barcelona_2007_cropped.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-1db05862c4-away",
@@ -1557,7 +1751,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AFC_Barcelona_2007_cropped.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-11e893f98b-home",
@@ -1565,7 +1760,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABorussia_Dortmund_Goal_Celebration.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-11e893f98b-away",
@@ -1573,7 +1769,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ABorussia_Dortmund_Goal_Celebration.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-0318fd2642-home",
@@ -1581,7 +1778,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AChelsea_players_in_2009.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-cb604efaed-away",
@@ -1589,7 +1787,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A1968%E2%80%9369_Juventus_Football_Club.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-a7ee3b5494-home",
@@ -1597,7 +1796,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALiverpool_Players_Training_04012026_(3).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-a7ee3b5494-away",
@@ -1605,7 +1805,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ALiverpool_Players_Training_04012026_(3).jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-8a0b8cd87b-home",
@@ -1613,7 +1814,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A1970%E2%80%9371_Inter_Milan_-_11th_Scudetto_-_Giovanni_Invernizzi.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-8a0b8cd87b-away",
@@ -1621,7 +1823,8 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3A1970%E2%80%9371_Inter_Milan_-_11th_Scudetto_-_Giovanni_Invernizzi.jpg",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "player_wearing",
+    "confidence": 0.72
   },
   {
     "id": "live-2514f76082-away",
@@ -1629,6 +1832,7 @@
     "caption": "图片：人工维护库（实物实拍）",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AKit_right_arm_AtlBucaramanga_2026_Third.png",
     "source": "Wikimedia Commons",
-    "image_quality": "player_wearing"
+    "image_quality": "jersey_product",
+    "confidence": 0.9
   }
 ]
