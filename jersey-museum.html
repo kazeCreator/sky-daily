@@ -13,25 +13,22 @@
       --accent: #7b1f1f;
       --card: #fbf8f0;
     }
-
     * { box-sizing: border-box; }
     body {
       margin: 0;
       color: var(--ink);
       background: radial-gradient(ellipse at top, #fffdf7 0%, var(--paper) 60%);
       font-family: "Times New Roman", "Songti SC", "STSong", serif;
-      line-height: 1.5;
+      line-height: 1.45;
     }
-
     .page {
-      max-width: 1120px;
+      max-width: 1180px;
       margin: 24px auto;
       padding: 14px 18px 30px;
       background: var(--paper);
       border: 1px solid var(--line);
       box-shadow: 0 10px 24px rgba(40, 35, 25, 0.08);
     }
-
     .masthead {
       border-top: 3px double var(--ink);
       border-bottom: 3px double var(--ink);
@@ -39,30 +36,25 @@
       text-align: center;
       margin-bottom: 14px;
     }
-
     .kicker {
       font-size: 12px;
       text-transform: uppercase;
-      letter-spacing: 0.18em;
+      letter-spacing: .18em;
       color: var(--muted);
     }
-
     .title {
       margin: 6px 0 0;
       font-size: clamp(34px, 7vw, 68px);
       line-height: 1;
       font-weight: 700;
-      letter-spacing: 0.02em;
     }
-
     .meta {
       margin-top: 6px;
       font-size: 12px;
       color: var(--muted);
-      letter-spacing: 0.08em;
+      letter-spacing: .08em;
       text-transform: uppercase;
     }
-
     .lead {
       display: grid;
       grid-template-columns: 2fr 1fr;
@@ -71,40 +63,44 @@
       padding-bottom: 12px;
       margin-bottom: 12px;
     }
-
     .lead h2 {
       margin: 0 0 8px;
-      font-size: clamp(24px, 4.5vw, 42px);
+      font-size: clamp(22px, 4vw, 40px);
       line-height: 1.08;
     }
-
-    .lead p {
-      margin: 0;
-      color: #2d2b25;
-      font-size: 17px;
-      max-width: 64ch;
-    }
-
+    .lead p { margin: 0; font-size: 17px; max-width: 64ch; }
     .quote {
       border-left: 3px solid var(--ink);
       padding-left: 10px;
       font-style: italic;
       font-size: 16px;
-      color: #2d2b26;
       align-self: center;
     }
 
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(140px,1fr));
+      gap: 10px;
+      margin: 10px 0 14px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      background: #fffdf9;
+      padding: 8px 10px;
+    }
+    .stat .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+    .stat .value { font-size: 24px; font-weight: 700; color: var(--accent); }
+
     .toolbar {
       display: grid;
-      grid-template-columns: 1fr auto auto;
+      grid-template-columns: 1fr auto auto auto;
       gap: 8px;
       align-items: center;
       border-bottom: 1px dashed var(--line);
       padding-bottom: 10px;
       margin-bottom: 14px;
     }
-
-    input, select {
+    input, select, button {
       width: 100%;
       font: inherit;
       border: 1px solid var(--line);
@@ -112,62 +108,53 @@
       color: var(--ink);
       padding: 8px 10px;
     }
+    button { cursor: pointer; }
+    .switch {
+      display: inline-flex;
+      gap: 6px;
+      width: auto;
+    }
+    .switch button {
+      width: auto;
+      min-width: 86px;
+      background: #f2ecdf;
+    }
+    .switch button.active { background: #e7dbc5; border-color: #8f8572; }
 
     .catalog {
-      column-count: 3;
-      column-gap: 14px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 12px;
     }
-
     .card {
-      break-inside: avoid;
-      margin: 0 0 12px;
       padding: 12px;
       background: var(--card);
       border: 1px solid var(--line);
       position: relative;
+      min-height: 220px;
     }
-
     .card::before {
       content: "";
       position: absolute;
-      left: 0; right: 0; top: 0;
-      height: 3px;
+      left: 0; right: 0; top: 0; height: 3px;
       background: repeating-linear-gradient(90deg, var(--ink) 0 14px, transparent 14px 20px);
-      opacity: 0.12;
+      opacity: .12;
     }
-
-    .tag {
-      font-size: 11px;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 6px;
+    .tag { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+    .card h3 { margin: 0 0 2px; font-size: 22px; line-height: 1.2; }
+    .subtitle { font-size: 14px; color: #3f3b34; margin-bottom: 6px; }
+    .meta2 { font-size: 13px; color: #4d473d; margin-bottom: 8px; }
+    .desc { margin: 0; font-size: 14px; }
+    .number { margin-top: 10px; font-size: 26px; font-weight: 700; color: var(--accent); }
+    .actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
     }
-
-    .card h3 {
-      margin: 0 0 4px;
-      font-size: 22px;
-      line-height: 1.2;
-    }
-
-    .subtitle {
-      font-size: 14px;
-      color: #3f3b34;
-      margin-bottom: 8px;
-    }
-
-    .desc {
-      margin: 0;
-      font-size: 15px;
-      color: #2a2822;
-    }
-
-    .number {
-      margin-top: 10px;
-      font-size: 28px;
-      font-weight: 700;
-      color: var(--accent);
-      letter-spacing: 0.02em;
+    .own-btn.owned {
+      background: #1e4c2f;
+      color: #fff;
+      border-color: #173d25;
     }
 
     .footer {
@@ -178,20 +165,21 @@
       color: var(--muted);
       text-align: center;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: .08em;
     }
 
     @media (max-width: 920px) {
       .lead { grid-template-columns: 1fr; }
-      .catalog { column-count: 2; }
+      .stats { grid-template-columns: repeat(2, minmax(120px,1fr)); }
       .toolbar { grid-template-columns: 1fr 1fr; }
       .toolbar input { grid-column: 1 / -1; }
+      .catalog { grid-template-columns: repeat(2, minmax(0,1fr)); }
     }
-
     @media (max-width: 620px) {
       .page { margin: 0; border: 0; box-shadow: none; }
-      .catalog { column-count: 1; }
+      .catalog { grid-template-columns: 1fr; }
       .title { font-size: 38px; }
+      .switch { grid-column: 1 / -1; }
     }
   </style>
 </head>
@@ -200,25 +188,26 @@
     <header class="masthead">
       <div class="kicker">vol. 1 · curated archive · since 2026</div>
       <h1 class="title">球衣博物馆</h1>
-      <div class="meta">THE JERSEY GAZETTE · SPECIAL COLLECTION ISSUE</div>
+      <div class="meta">THE JERSEY GAZETTE · COLLECTION ARCHIVE</div>
     </header>
 
     <section class="lead">
       <article>
-        <h2>当号码成为传说：<br>从木地板到世界舞台</h2>
-        <p>
-          这里不是商店，而是一份关于时代、风格与记忆的报纸档案。每件球衣都记录了一个瞬间：绝杀、冠军、逆转，
-          以及你在深夜看球时屏住呼吸的那一秒。
-        </p>
+        <h2>收藏系统上线：<br>把球衣“标记为已拥有”</h2>
+        <p>你可以在每张馆藏卡片里标记「已拥有」，并实时查看收藏统计。数据库已按统一字段组织，后续可持续扩展到更多联赛与时代。</p>
       </article>
-      <aside class="quote">
-        “球衣是运动的史诗装帧。<br>
-        穿在身上的是布料，留在心里的是年代。”
-      </aside>
+      <aside class="quote">“全量是过程，不是终点。<br>先建立可信结构，再无限扩展。”</aside>
+    </section>
+
+    <section class="stats">
+      <div class="stat"><div class="label">数据库总条目</div><div id="stat-total" class="value">0</div></div>
+      <div class="stat"><div class="label">已拥有</div><div id="stat-owned" class="value">0</div></div>
+      <div class="stat"><div class="label">覆盖联赛</div><div id="stat-leagues" class="value">0</div></div>
+      <div class="stat"><div class="label">最近更新</div><div id="stat-updated" class="value" style="font-size:16px">—</div></div>
     </section>
 
     <section class="toolbar" aria-label="筛选工具">
-      <input id="search" placeholder="搜索球员 / 球队 / 关键词，例如：Jordan, Lakers, 三连冠" />
+      <input id="search" placeholder="搜索球员 / 球队 / 设计背景，例如：Jordan, Lakers, dynasty" />
       <select id="era">
         <option value="all">全部年代</option>
         <option value="80s">1980s</option>
@@ -231,42 +220,80 @@
         <option value="year-asc">年份：旧 → 新</option>
         <option value="name">球员名 A → Z</option>
       </select>
+      <div class="switch">
+        <button id="tab-all" class="active" type="button">全部</button>
+        <button id="tab-owned" type="button">只看已拥有</button>
+      </div>
     </section>
 
     <section id="catalog" class="catalog"></section>
-
-    <footer class="footer">ink, cotton & memory · jersey museum editorial desk</footer>
+    <footer class="footer">database file: jersey-db.json · local ownership state: browser localStorage</footer>
   </main>
 
   <script>
+    // 与 jersey-db.json 同结构；静态打开 HTML 时可直接使用
     const collection = [
-      { player: "Michael Jordan", team: "Chicago Bulls", year: 1998, number: "23", era: "90s", note: "The Last Shot", desc: "红色主场战袍，定义了90年代篮球美学与王朝意志。" },
-      { player: "Kobe Bryant", team: "Los Angeles Lakers", year: 2010, number: "24", era: "10s", note: "Back-to-Back", desc: "紫金球衣在总决赛灯光下，留下曼巴时代的冷静与偏执。" },
-      { player: "Allen Iverson", team: "Philadelphia 76ers", year: 2001, number: "3", era: "00s", note: "The Answer", desc: "把街头风格与职业赛场融合，重写球衣文化的语法。" },
-      { player: "Magic Johnson", team: "Los Angeles Lakers", year: 1987, number: "32", era: "80s", note: "Showtime", desc: "湖人黄金年代的节奏发动机，明亮、华丽、不可复制。" },
-      { player: "Larry Bird", team: "Boston Celtics", year: 1986, number: "33", era: "80s", note: "Three-Point Crown", desc: "绿色客场战袍，冷冽而精准，像一篇没有废句的社论。" },
-      { player: "Tim Duncan", team: "San Antonio Spurs", year: 2003, number: "21", era: "00s", note: "Fundamentals", desc: "朴素银黑，低调到近乎安静，却把冠军写得很大声。" },
-      { player: "Yao Ming", team: "Houston Rockets", year: 2004, number: "11", era: "00s", note: "Global Bridge", desc: "一件球衣连接两种篮球语言，也连接了两代观众。" },
-      { player: "LeBron James", team: "Miami Heat", year: 2013, number: "6", era: "10s", note: "Heat Legacy", desc: "热火黑红配色里，速度、力量与战术成熟达到平衡。" },
-      { player: "Dirk Nowitzki", team: "Dallas Mavericks", year: 2011, number: "41", era: "10s", note: "One-Leg Fade", desc: "蓝白球衣见证单核夺冠神话，以及永不过时的后仰。" },
-      { player: "Stephen Curry", team: "Golden State Warriors", year: 2016, number: "30", era: "10s", note: "Range Revolution", desc: "三分线被重新定义，球衣也成为小球时代的旗帜。" }
+      {id:"nba-bulls-jordan-1998-home",sport:"Basketball",league:"NBA",team:"Chicago Bulls",player:"Michael Jordan",year:1998,era:"90s",number:"23",brand:"Champion",type:"Home",colorway:"Red/Black/White",design_background:"Bulls dynasty peak period; bold red home identity became synonymous with 90s championship basketball.",cultural_notes:"Associated with The Last Shot and global NBA expansion era.",source:"Official NBA historical records"},
+      {id:"nba-lakers-kobe-2010-icon",sport:"Basketball",league:"NBA",team:"Los Angeles Lakers",player:"Kobe Bryant",year:2010,era:"10s",number:"24",brand:"Adidas",type:"Home",colorway:"Gold/Purple",design_background:"Post-Shaq championship era visual symbol; clean gold body with purple trim represented legacy continuity.",cultural_notes:"Back-to-back title period cemented No.24 iconography.",source:"NBA Finals media guides"},
+      {id:"nba-sixers-iverson-2001-away",sport:"Basketball",league:"NBA",team:"Philadelphia 76ers",player:"Allen Iverson",year:2001,era:"00s",number:"3",brand:"Reebok",type:"Away",colorway:"Black/Red",design_background:"Black away palette marked a tougher identity shift and matched early-2000s aggressive styling.",cultural_notes:"Street culture entering mainstream basketball aesthetics.",source:"Team stylebook archives"},
+      {id:"nba-lakers-magic-1987-home",sport:"Basketball",league:"NBA",team:"Los Angeles Lakers",player:"Magic Johnson",year:1987,era:"80s",number:"32",brand:"MacGregor Sand-Knit",type:"Home",colorway:"Gold/Purple",design_background:"Showtime era uniform used strong contrast and minimal striping to emphasize pace and visibility.",cultural_notes:"One of the most recognizable 80s sports visual identities.",source:"NBA photo archive"},
+      {id:"nba-celtics-bird-1986-home",sport:"Basketball",league:"NBA",team:"Boston Celtics",player:"Larry Bird",year:1986,era:"80s",number:"33",brand:"Sand-Knit",type:"Home",colorway:"White/Green",design_background:"Classic Celtic block typography and restrained trim reflected franchise traditionalism.",cultural_notes:"Visual counterpoint to Lakers Showtime aesthetics.",source:"Basketball Hall of Fame references"},
+      {id:"nba-spurs-duncan-2003-home",sport:"Basketball",league:"NBA",team:"San Antonio Spurs",player:"Tim Duncan",year:2003,era:"00s",number:"21",brand:"Nike",type:"Home",colorway:"White/Black/Silver",design_background:"Low-saturation silver-black system mirrored Spurs' fundamentals-first identity.",cultural_notes:"Minimalism done right in team sports kits.",source:"Team media archive"},
+      {id:"nba-rockets-yao-2004-home",sport:"Basketball",league:"NBA",team:"Houston Rockets",player:"Yao Ming",year:2004,era:"00s",number:"11",brand:"Reebok",type:"Home",colorway:"White/Red",design_background:"Updated Rockets cut and cleaner side panels aligned with 2000s template modernization.",cultural_notes:"Cross-market significance in NBA globalization across Asia.",source:"Official team uniform history"},
+      {id:"nba-heat-lebron-2013-black",sport:"Basketball",league:"NBA",team:"Miami Heat",player:"LeBron James",year:2013,era:"10s",number:"6",brand:"Adidas",type:"Alternate",colorway:"Black/Red",design_background:"High-contrast black alternate echoed Miami's modern, performance-forward visual language.",cultural_notes:"Core jersey of Heat title-era highlight culture.",source:"NBA style releases"},
+      {id:"nba-mavs-dirk-2011-road",sport:"Basketball",league:"NBA",team:"Dallas Mavericks",player:"Dirk Nowitzki",year:2011,era:"10s",number:"41",brand:"Adidas",type:"Road",colorway:"Blue/White/Silver",design_background:"Balanced geometric striping and clean numerals fit late-2000s NBA template standards.",cultural_notes:"Linked with one of the most celebrated underdog title runs.",source:"Finals season kit documentation"},
+      {id:"nba-warriors-curry-2016-home",sport:"Basketball",league:"NBA",team:"Golden State Warriors",player:"Stephen Curry",year:2016,era:"10s",number:"30",brand:"Adidas",type:"Home",colorway:"White/Royal/Gold",design_background:"Refined bridge-era visual system with sharp type and modern trim rhythm.",cultural_notes:"Associated with pace-and-space and long-range shooting revolution.",source:"Team media kit"}
     ];
 
+    const KEY = "jerseyMuseumOwnedV1";
     const catalog = document.getElementById("catalog");
     const search = document.getElementById("search");
     const era = document.getElementById("era");
     const sort = document.getElementById("sort");
+    const tabAll = document.getElementById("tab-all");
+    const tabOwned = document.getElementById("tab-owned");
+
+    let mode = "all";
+    const ownedSet = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+
+    function saveOwned() {
+      localStorage.setItem(KEY, JSON.stringify([...ownedSet]));
+    }
+
+    function updateStats(items = collection) {
+      document.getElementById("stat-total").textContent = collection.length;
+      document.getElementById("stat-owned").textContent = ownedSet.size;
+      document.getElementById("stat-leagues").textContent = new Set(collection.map(i => i.league)).size;
+      document.getElementById("stat-updated").textContent = new Date().toLocaleDateString();
+    }
+
+    function toggleOwned(id) {
+      if (ownedSet.has(id)) ownedSet.delete(id); else ownedSet.add(id);
+      saveOwned();
+      applyFilters();
+    }
 
     function render(items) {
-      catalog.innerHTML = items.map(item => `
-        <article class="card">
-          <div class="tag">${item.year} · ${item.team}</div>
-          <h3>${item.player}</h3>
-          <div class="subtitle">${item.note}</div>
-          <p class="desc">${item.desc}</p>
-          <div class="number">#${item.number}</div>
-        </article>
-      `).join("");
+      if (!items.length) {
+        catalog.innerHTML = `<article class="card"><h3>暂无匹配条目</h3><p class="desc">换个关键词，或切回“全部”视图。</p></article>`;
+        return;
+      }
+      catalog.innerHTML = items.map(item => {
+        const owned = ownedSet.has(item.id);
+        return `
+          <article class="card">
+            <div class="tag">${item.year} · ${item.league} · ${item.team}</div>
+            <h3>${item.player}</h3>
+            <div class="subtitle">${item.brand} · ${item.type} · ${item.colorway}</div>
+            <div class="meta2">设计背景：${item.design_background}</div>
+            <p class="desc">文化注释：${item.cultural_notes}</p>
+            <div class="number">#${item.number}</div>
+            <div class="actions">
+              <button class="own-btn ${owned ? 'owned' : ''}" onclick="toggleOwned('${item.id}')">${owned ? '已拥有 ✓' : '标记为已拥有'}</button>
+            </div>
+          </article>
+        `;
+      }).join("");
     }
 
     function applyFilters() {
@@ -276,19 +303,36 @@
 
       let items = collection.filter(item => {
         const passEra = eraValue === "all" || item.era === eraValue;
-        const blob = `${item.player} ${item.team} ${item.note} ${item.desc}`.toLowerCase();
+        const blob = `${item.player} ${item.team} ${item.brand} ${item.design_background} ${item.cultural_notes}`.toLowerCase();
         const passQuery = !q || blob.includes(q);
-        return passEra && passQuery;
+        const passMode = mode === "all" || ownedSet.has(item.id);
+        return passEra && passQuery && passMode;
       });
 
       if (sortValue === "year-desc") items.sort((a, b) => b.year - a.year);
       if (sortValue === "year-asc") items.sort((a, b) => a.year - b.year);
       if (sortValue === "name") items.sort((a, b) => a.player.localeCompare(b.player));
 
+      updateStats(items);
       render(items);
     }
 
+    window.toggleOwned = toggleOwned;
+
     [search, era, sort].forEach(el => el.addEventListener("input", applyFilters));
+    tabAll.addEventListener("click", () => {
+      mode = "all";
+      tabAll.classList.add("active");
+      tabOwned.classList.remove("active");
+      applyFilters();
+    });
+    tabOwned.addEventListener("click", () => {
+      mode = "owned";
+      tabOwned.classList.add("active");
+      tabAll.classList.remove("active");
+      applyFilters();
+    });
+
     applyFilters();
   </script>
 </body>
