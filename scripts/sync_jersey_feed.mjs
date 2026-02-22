@@ -62,6 +62,26 @@ const TRUSTED_HOSTS = (() => {
 })();
 
 
+
+function hostOf(raw) {
+  const u = safeUrl(raw);
+  return u ? u.hostname.toLowerCase() : '';
+}
+
+function hostMatchesPolicy(raw, exactHosts = [], allowSuffixHosts = []) {
+  const h = hostOf(raw);
+  if (!h) return false;
+  if (exactHosts.map(x => x.toLowerCase()).includes(h)) return true;
+  return allowSuffixHosts.some(x => h === x.toLowerCase() || h.endsWith('.' + x.toLowerCase()));
+}
+
+function sourcePolicy(src) {
+  return {
+    hostPins: (src.hostPins || []).map(h => String(h).toLowerCase()),
+    mediaHosts: (src.mediaHosts || []).map(h => String(h).toLowerCase())
+  };
+}
+
 function strip(s = '') { return s.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(); }
 function era(y){ if(y<2000)return '90s'; if(y<2010)return '00s'; if(y<2020)return '10s'; return '20s'; }
 
@@ -98,13 +118,24 @@ function credibilityFor(url, base = 80){
 }
 
 async function fetchSource(src) {
+  const policy = sourcePolicy(src);
   if (!isTrustedHttps(src.url, TRUSTED_HOSTS) || !isTrustedHttps(src.site, TRUSTED_HOSTS)) {
     throw new Error(`${src.name} blocked by trust policy`);
   }
+  if (policy.hostPins.length && !hostMatchesPolicy(src.url, policy.hostPins, [])) {
+    throw new Error(`${src.name} host pin mismatch`);
+  }
+
   const res = await fetch(src.url, { headers: { 'user-agent': 'jersey-sync-bot/1.0' }, redirect: 'follow' });
   if (!res.ok) throw new Error(`${src.name} ${res.status}`);
+
+  // redirect domain check (final URL must still match pinned hosts when pins exist)
+  if (policy.hostPins.length && !hostMatchesPolicy(res.url, policy.hostPins, [])) {
+    throw new Error(`${src.name} redirect host mismatch: ${hostOf(res.url)}`);
+  }
+
   const xml = await res.text();
-  return parseItems(xml).map(i => ({ ...i, source: src.name, source_url: src.site }));
+  return parseItems(xml).map(i => ({ ...i, source: src.name, source_url: src.site, source_policy: policy }));
 }
 
 function mapToRecord(item) {
@@ -116,8 +147,10 @@ function mapToRecord(item) {
   const year = Number((item.pubDate.match(/\b(20\d{2})\b/) || [new Date().getFullYear()])[0]);
   const type = /away/i.test(combo) ? 'Away' : /third/i.test(combo) ? 'Third' : 'Home';
 
+  const policy = item.source_policy || { hostPins: [], mediaHosts: [] };
   if (!isTrustedHttps(item.link, TRUSTED_HOSTS)) return null;
-  const trustedImage = isTrustedHttps(item.image, TRUSTED_HOSTS) ? item.image : '';
+  if (policy.hostPins.length && !hostMatchesPolicy(item.link, policy.hostPins, TRUSTED_HOSTS)) return null;
+  const trustedImage = (isTrustedHttps(item.image, TRUSTED_HOSTS) && (!policy.mediaHosts.length || hostMatchesPolicy(item.image, policy.mediaHosts, []))) ? item.image : '';
   const idHash = crypto.createHash('md5').update(item.link).digest('hex').slice(0, 10);
   return {
     id: `live-${idHash}`,
