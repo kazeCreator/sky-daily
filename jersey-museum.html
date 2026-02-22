@@ -119,27 +119,14 @@ function render(items){
 }
 
 async function fetchWikimediaImage(query){
-  const url='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=' + encodeURIComponent(query) + '&gsrlimit=1&prop=pageimages|info&pithumbsize=800&inprop=url&format=json&origin=*';
+  const url='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=' + encodeURIComponent(query) + '&gsrlimit=6&prop=pageimages|info&pithumbsize=800&inprop=url&format=json&origin=*';
   const res=await fetch(url);
   if(!res.ok) return null;
   const data=await res.json();
   const pages=data?.query?.pages ? Object.values(data.query.pages) : [];
-  const p=pages[0];
-  return p?.thumbnail?.source || null;
-}
-
-async function fetchWikipediaEntityImage(entity){
-  const candidates = [entity, `${entity} F.C.`, `${entity} national football team`];
-  for (const c of candidates) {
-    const title = encodeURIComponent(c.replace(/\s+/g, '_'));
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${title}`;
-    try {
-      const res = await fetch(url);
-      if (!res.ok) continue;
-      const data = await res.json();
-      if (data?.thumbnail?.source) return data.thumbnail.source;
-    } catch (e) {}
-  }
+  const isJerseyTitle = t => /kit|jersey|shirt|home kit|away kit/i.test(t || '');
+  const jerseyHit = pages.find(p => p?.thumbnail?.source && isJerseyTitle(p?.title));
+  if (jerseyHit) return jerseyHit.thumbnail.source;
   return null;
 }
 
@@ -157,17 +144,14 @@ async function hydrateRealImages(items){
     }
     if(cache[it.id]){ el.src=cache[it.id]; if(cap) cap.textContent='图片：Wikimedia Commons'; continue; }
     try{
-      const q=`${it.entity} ${it.year} ${it.type} football kit`;
-      let hit=await fetchWikimediaImage(q);
-      let label='图片：Wikimedia Commons';
-      if(!hit){
-        hit=await fetchWikipediaEntityImage(it.entity);
-        label='图片：Wikipedia（队徽/队伍图）';
-      }
+      const q=`${it.entity} ${it.year} ${it.type} football kit jersey`;
+      const hit=await fetchWikimediaImage(q);
       if(hit){
         cache[it.id]=hit;
         el.src=hit;
-        if(cap) cap.textContent=label;
+        if(cap) cap.textContent='图片：Wikimedia Commons（球衣）';
+      } else {
+        if(cap) cap.textContent='图片：暂无匹配球衣图';
       }
     }catch(e){}
   }
