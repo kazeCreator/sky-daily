@@ -117,16 +117,24 @@ function updateStats(){
   $('s-owned').textContent=state.owned.size;
   $('s-club').textContent=new Set(state.items.filter(i=>i.category==='club').map(i=>i.entity)).size;
   $('s-country').textContent=new Set(state.items.filter(i=>i.category==='country').map(i=>i.entity)).size;
-  const pending = state.items.filter(i => { const r=state.overrides[i.id] || state.realImageMap[i.id]; return !r || Number(r.confidence||0) < 0.8; }).length;
+  const pending = state.items.filter(i => {
+    const r = state.overrides[i.id] || state.realImageMap[i.id];
+    return !r || Number(r.confidence||0) < 0.8 || !isLikelyJerseyRecord(i, r);
+  }).length;
   $('s-pending').textContent=pending;
   $('s-sync').textContent=localStorage.getItem(KEY_SYNC)||'未同步';
 }
 
 function toggleOwned(id){state.owned.has(id)?state.owned.delete(id):state.owned.add(id); save(); applyFilters()} window.toggleOwned=toggleOwned;
 
-function isLikelyJerseyImage(url=''){
-  const u=String(url).toLowerCase();
-  return /(kit|jersey|shirt)/.test(u);
+function isLikelyJerseyRecord(item, rec){
+  if(!rec || !rec.image_url) return false;
+  const blob = `${rec.image_url} ${rec.caption||''} ${rec.source_url||''}`.toLowerCase();
+  if (/(logo|badge|crest|escudo|icon|shield|emblem|svg)/.test(blob)) return false;
+  if (!/(kit|jersey|shirt|football|soccer|home|away|主场|客场|球衣)/.test(blob)) return false;
+  if (item.type==='Home' && /away\b/.test(blob) && !/home\b/.test(blob)) return false;
+  if (item.type==='Away' && /home\b/.test(blob) && !/away\b/.test(blob)) return false;
+  return true;
 }
 
 
@@ -139,9 +147,10 @@ function render(items){
     const real = override || state.realImageMap[x.id] || null;
     const img = real?.image_url || '';
     const conf = Number(real?.confidence || 0);
-    const capText = real?.caption || '图片：待人工入库';
+    const imageOk = isLikelyJerseyRecord(x, real);
+    const capText = imageOk ? (real?.caption || '图片：待人工入库') : '图片：待人工校对（球衣图/描述未对齐）';
     const confText = real ? `置信度 ${(conf*100).toFixed(0)}%` : '未入库';
-    return `<article class="card"><div class="tag">${x.category==='club'?'俱乐部':'国家队'} · ${x.league} · ${x.year}</div><h3>${x.entity}</h3><div class="subtitle">${x.player} · ${x.brand} · ${typeLabel}</div>${img ? `<img class="kitimg" data-id="${x.id}" src="${img}" alt="${x.entity} ${x.year} ${typeLabel}球衣" loading="lazy"/>` : `<div class="kitimg" style="display:grid;place-items:center;color:#666">暂无实物图</div>`}<div class="imgcap" id="cap-${x.id}">${capText} · ${confText}</div><p class="meta2">设计背景：${x.design_background}</p><p class="desc">${x.cultural_notes}</p><p class="src"><span class="risk ${rc}">${rt} / ${x.credibility||'-'}</span></p><div class="number">#${x.number}</div><div class="actions"><button class="${own?'owned':''}" onclick="toggleOwned('${x.id}')">${own?'已拥有 ✓':'标记为已拥有'}</button></div></article>`;
+    return `<article class="card"><div class="tag">${x.category==='club'?'俱乐部':'国家队'} · ${x.league} · ${x.year}</div><h3>${x.entity}</h3><div class="subtitle">${x.player} · ${x.brand} · ${typeLabel}</div>${img && imageOk ? `<img class="kitimg" data-id="${x.id}" src="${img}" alt="${x.entity} ${x.year} ${typeLabel}球衣" loading="lazy"/>` : `<div class="kitimg" style="display:grid;place-items:center;color:#666;background:#f5f0e4;border-style:dashed">待校对球衣图<br/><small>${x.entity} ${x.year} ${typeLabel}</small></div>`}<div class="imgcap" id="cap-${x.id}">${capText} · ${confText}</div><p class="meta2">设计背景：${x.design_background}</p><p class="desc">${x.cultural_notes}</p><p class="src"><span class="risk ${rc}">${rt} / ${x.credibility||'-'}</span></p><div class="number">#${x.number}</div><div class="actions"><button class="${own?'owned':''}" onclick="toggleOwned('${x.id}')">${own?'已拥有 ✓':'标记为已拥有'}</button></div></article>`;
   }).join('');
 }
 
@@ -157,7 +166,7 @@ function applyFilters(){
     const blob=`${x.entity} ${x.player} ${x.design_background} ${x.cultural_notes}`.toLowerCase();
     const okQ=!q||blob.includes(q);
     const r = state.overrides[x.id] || state.realImageMap[x.id];
-    const isPending = !r || Number(r.confidence||0) < 0.8;
+    const isPending = !r || Number(r.confidence||0) < 0.8 || !isLikelyJerseyRecord(x, r);
     const okMode = state.mode==='all' || (state.mode==='owned' && state.owned.has(x.id)) || (state.mode==='pending' && isPending);
     return okCat&&okEntity&&okYear&&okType&&okEra&&okQ&&okMode;
   });

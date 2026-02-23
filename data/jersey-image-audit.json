@@ -1,0 +1,1034 @@
+{
+  "total": 206,
+  "pass": 60,
+  "fail": 146,
+  "reasons": {
+    "logo_or_badge_like": 74,
+    "not_jersey_like": 34,
+    "missing_image": 38
+  },
+  "failed_ids": [
+    {
+      "id": "club-ac-milan-paolo-maldini-2007-home",
+      "reason": "logo_or_badge_like",
+      "entity": "AC Milan",
+      "year": 2007,
+      "type": "Home"
+    },
+    {
+      "id": "club-ac-milan-paolo-maldini-2007-away",
+      "reason": "logo_or_badge_like",
+      "entity": "AC Milan",
+      "year": 2007,
+      "type": "Away"
+    },
+    {
+      "id": "club-ac-milan-kaka-2007-home",
+      "reason": "logo_or_badge_like",
+      "entity": "AC Milan",
+      "year": 2007,
+      "type": "Home"
+    },
+    {
+      "id": "club-ac-milan-kaka-2007-away",
+      "reason": "logo_or_badge_like",
+      "entity": "AC Milan",
+      "year": 2007,
+      "type": "Away"
+    },
+    {
+      "id": "club-ac-milan-zlatan-ibrahimovic-2012-home",
+      "reason": "logo_or_badge_like",
+      "entity": "AC Milan",
+      "year": 2012,
+      "type": "Home"
+    },
+    {
+      "id": "club-ac-milan-zlatan-ibrahimovic-2012-away",
+      "reason": "logo_or_badge_like",
+      "entity": "AC Milan",
+      "year": 2012,
+      "type": "Away"
+    },
+    {
+      "id": "club-arsenal-thierry-henry-2004-home",
+      "reason": "not_jersey_like",
+      "entity": "Arsenal",
+      "year": 2004,
+      "type": "Home"
+    },
+    {
+      "id": "club-arsenal-thierry-henry-2004-away",
+      "reason": "not_jersey_like",
+      "entity": "Arsenal",
+      "year": 2004,
+      "type": "Away"
+    },
+    {
+      "id": "club-arsenal-cesc-fabregas-2006-home",
+      "reason": "not_jersey_like",
+      "entity": "Arsenal",
+      "year": 2006,
+      "type": "Home"
+    },
+    {
+      "id": "club-arsenal-cesc-fabregas-2006-away",
+      "reason": "not_jersey_like",
+      "entity": "Arsenal",
+      "year": 2006,
+      "type": "Away"
+    },
+    {
+      "id": "club-arsenal-bukayo-saka-2023-home",
+      "reason": "not_jersey_like",
+      "entity": "Arsenal",
+      "year": 2023,
+      "type": "Home"
+    },
+    {
+      "id": "club-arsenal-bukayo-saka-2023-away",
+      "reason": "not_jersey_like",
+      "entity": "Arsenal",
+      "year": 2023,
+      "type": "Away"
+    },
+    {
+      "id": "club-atletico-madrid-fernando-torres-2016-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Atletico Madrid",
+      "year": 2016,
+      "type": "Home"
+    },
+    {
+      "id": "club-atletico-madrid-fernando-torres-2016-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Atletico Madrid",
+      "year": 2016,
+      "type": "Away"
+    },
+    {
+      "id": "club-atletico-madrid-antoine-griezmann-2018-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Atletico Madrid",
+      "year": 2018,
+      "type": "Home"
+    },
+    {
+      "id": "club-atletico-madrid-antoine-griezmann-2018-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Atletico Madrid",
+      "year": 2018,
+      "type": "Away"
+    },
+    {
+      "id": "club-atletico-madrid-koke-2021-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Atletico Madrid",
+      "year": 2021,
+      "type": "Home"
+    },
+    {
+      "id": "club-atletico-madrid-koke-2021-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Atletico Madrid",
+      "year": 2021,
+      "type": "Away"
+    },
+    {
+      "id": "club-bayern-munich-thomas-muller-2013-home",
+      "reason": "not_jersey_like",
+      "entity": "Bayern Munich",
+      "year": 2013,
+      "type": "Home"
+    },
+    {
+      "id": "club-bayern-munich-thomas-muller-2013-away",
+      "reason": "not_jersey_like",
+      "entity": "Bayern Munich",
+      "year": 2013,
+      "type": "Away"
+    },
+    {
+      "id": "club-bayern-munich-arjen-robben-2013-home",
+      "reason": "not_jersey_like",
+      "entity": "Bayern Munich",
+      "year": 2013,
+      "type": "Home"
+    },
+    {
+      "id": "club-bayern-munich-arjen-robben-2013-away",
+      "reason": "not_jersey_like",
+      "entity": "Bayern Munich",
+      "year": 2013,
+      "type": "Away"
+    },
+    {
+      "id": "club-bayern-munich-harry-kane-2024-home",
+      "reason": "not_jersey_like",
+      "entity": "Bayern Munich",
+      "year": 2024,
+      "type": "Home"
+    },
+    {
+      "id": "club-bayern-munich-harry-kane-2024-away",
+      "reason": "not_jersey_like",
+      "entity": "Bayern Munich",
+      "year": 2024,
+      "type": "Away"
+    },
+    {
+      "id": "club-borussia-dortmund-marco-reus-2013-home",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2013,
+      "type": "Home"
+    },
+    {
+      "id": "club-borussia-dortmund-marco-reus-2013-away",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2013,
+      "type": "Away"
+    },
+    {
+      "id": "club-borussia-dortmund-mats-hummels-2016-home",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2016,
+      "type": "Home"
+    },
+    {
+      "id": "club-borussia-dortmund-mats-hummels-2016-away",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2016,
+      "type": "Away"
+    },
+    {
+      "id": "club-borussia-dortmund-erling-haaland-2021-home",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2021,
+      "type": "Home"
+    },
+    {
+      "id": "club-borussia-dortmund-erling-haaland-2021-away",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2021,
+      "type": "Away"
+    },
+    {
+      "id": "club-chelsea-frank-lampard-2009-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2009,
+      "type": "Home"
+    },
+    {
+      "id": "club-chelsea-frank-lampard-2009-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2009,
+      "type": "Away"
+    },
+    {
+      "id": "club-chelsea-didier-drogba-2012-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2012,
+      "type": "Home"
+    },
+    {
+      "id": "club-chelsea-didier-drogba-2012-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2012,
+      "type": "Away"
+    },
+    {
+      "id": "club-chelsea-eden-hazard-2017-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2017,
+      "type": "Home"
+    },
+    {
+      "id": "club-chelsea-eden-hazard-2017-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2017,
+      "type": "Away"
+    },
+    {
+      "id": "club-fc-barcelona-ronaldinho-2006-home",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2006,
+      "type": "Home"
+    },
+    {
+      "id": "club-fc-barcelona-ronaldinho-2006-away",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2006,
+      "type": "Away"
+    },
+    {
+      "id": "club-fc-barcelona-xavi-2010-home",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2010,
+      "type": "Home"
+    },
+    {
+      "id": "club-fc-barcelona-xavi-2010-away",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2010,
+      "type": "Away"
+    },
+    {
+      "id": "club-fc-barcelona-lionel-messi-2011-home",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2011,
+      "type": "Home"
+    },
+    {
+      "id": "club-fc-barcelona-lionel-messi-2011-away",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2011,
+      "type": "Away"
+    },
+    {
+      "id": "club-inter-milan-javier-zanetti-2010-home",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2010,
+      "type": "Home"
+    },
+    {
+      "id": "club-inter-milan-javier-zanetti-2010-away",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2010,
+      "type": "Away"
+    },
+    {
+      "id": "club-inter-milan-diego-milito-2010-home",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2010,
+      "type": "Home"
+    },
+    {
+      "id": "club-inter-milan-diego-milito-2010-away",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2010,
+      "type": "Away"
+    },
+    {
+      "id": "club-inter-milan-lautaro-martinez-2023-home",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2023,
+      "type": "Home"
+    },
+    {
+      "id": "club-inter-milan-lautaro-martinez-2023-away",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2023,
+      "type": "Away"
+    },
+    {
+      "id": "club-juventus-pavel-nedved-2003-home",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2003,
+      "type": "Home"
+    },
+    {
+      "id": "club-juventus-pavel-nedved-2003-away",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2003,
+      "type": "Away"
+    },
+    {
+      "id": "club-juventus-alessandro-del-piero-2006-home",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2006,
+      "type": "Home"
+    },
+    {
+      "id": "club-juventus-alessandro-del-piero-2006-away",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2006,
+      "type": "Away"
+    },
+    {
+      "id": "club-juventus-gianluigi-buffon-2017-home",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2017,
+      "type": "Home"
+    },
+    {
+      "id": "club-juventus-gianluigi-buffon-2017-away",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2017,
+      "type": "Away"
+    },
+    {
+      "id": "club-liverpool-steven-gerrard-2005-home",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2005,
+      "type": "Home"
+    },
+    {
+      "id": "club-liverpool-steven-gerrard-2005-away",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2005,
+      "type": "Away"
+    },
+    {
+      "id": "club-liverpool-fernando-torres-2009-home",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2009,
+      "type": "Home"
+    },
+    {
+      "id": "club-liverpool-fernando-torres-2009-away",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2009,
+      "type": "Away"
+    },
+    {
+      "id": "club-liverpool-mohamed-salah-2022-home",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "club-liverpool-mohamed-salah-2022-away",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "club-manchester-united-david-beckham-1999-home",
+      "reason": "not_jersey_like",
+      "entity": "Manchester United",
+      "year": 1999,
+      "type": "Home"
+    },
+    {
+      "id": "club-manchester-united-david-beckham-1999-away",
+      "reason": "not_jersey_like",
+      "entity": "Manchester United",
+      "year": 1999,
+      "type": "Away"
+    },
+    {
+      "id": "club-manchester-united-wayne-rooney-2008-home",
+      "reason": "not_jersey_like",
+      "entity": "Manchester United",
+      "year": 2008,
+      "type": "Home"
+    },
+    {
+      "id": "club-manchester-united-wayne-rooney-2008-away",
+      "reason": "not_jersey_like",
+      "entity": "Manchester United",
+      "year": 2008,
+      "type": "Away"
+    },
+    {
+      "id": "club-manchester-united-cristiano-ronaldo-2008-home",
+      "reason": "not_jersey_like",
+      "entity": "Manchester United",
+      "year": 2008,
+      "type": "Home"
+    },
+    {
+      "id": "club-manchester-united-cristiano-ronaldo-2008-away",
+      "reason": "not_jersey_like",
+      "entity": "Manchester United",
+      "year": 2008,
+      "type": "Away"
+    },
+    {
+      "id": "club-paris-saint-germain-zlatan-ibrahimovic-2014-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Paris Saint-Germain",
+      "year": 2014,
+      "type": "Home"
+    },
+    {
+      "id": "club-paris-saint-germain-zlatan-ibrahimovic-2014-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Paris Saint-Germain",
+      "year": 2014,
+      "type": "Away"
+    },
+    {
+      "id": "club-paris-saint-germain-neymar-jr-2020-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Paris Saint-Germain",
+      "year": 2020,
+      "type": "Home"
+    },
+    {
+      "id": "club-paris-saint-germain-neymar-jr-2020-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Paris Saint-Germain",
+      "year": 2020,
+      "type": "Away"
+    },
+    {
+      "id": "club-paris-saint-germain-kylian-mbappe-2022-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Paris Saint-Germain",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "club-paris-saint-germain-kylian-mbappe-2022-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Paris Saint-Germain",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "club-real-madrid-raul-2001-home",
+      "reason": "missing_image",
+      "entity": "Real Madrid",
+      "year": 2001,
+      "type": "Home"
+    },
+    {
+      "id": "club-real-madrid-raul-2001-away",
+      "reason": "missing_image",
+      "entity": "Real Madrid",
+      "year": 2001,
+      "type": "Away"
+    },
+    {
+      "id": "club-real-madrid-zinedine-zidane-2002-home",
+      "reason": "missing_image",
+      "entity": "Real Madrid",
+      "year": 2002,
+      "type": "Home"
+    },
+    {
+      "id": "club-real-madrid-zinedine-zidane-2002-away",
+      "reason": "missing_image",
+      "entity": "Real Madrid",
+      "year": 2002,
+      "type": "Away"
+    },
+    {
+      "id": "club-real-madrid-karim-benzema-2022-home",
+      "reason": "missing_image",
+      "entity": "Real Madrid",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "club-real-madrid-karim-benzema-2022-away",
+      "reason": "missing_image",
+      "entity": "Real Madrid",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "country-brazil-ronaldo-2002-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Brazil",
+      "year": 2002,
+      "type": "Home"
+    },
+    {
+      "id": "country-brazil-ronaldo-2002-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Brazil",
+      "year": 2002,
+      "type": "Away"
+    },
+    {
+      "id": "country-brazil-ronaldinho-2002-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Brazil",
+      "year": 2002,
+      "type": "Home"
+    },
+    {
+      "id": "country-brazil-ronaldinho-2002-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Brazil",
+      "year": 2002,
+      "type": "Away"
+    },
+    {
+      "id": "country-brazil-neymar-jr-2014-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Brazil",
+      "year": 2014,
+      "type": "Home"
+    },
+    {
+      "id": "country-brazil-neymar-jr-2014-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Brazil",
+      "year": 2014,
+      "type": "Away"
+    },
+    {
+      "id": "country-croatia-luka-modric-2018-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Croatia",
+      "year": 2018,
+      "type": "Home"
+    },
+    {
+      "id": "country-croatia-luka-modric-2018-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Croatia",
+      "year": 2018,
+      "type": "Away"
+    },
+    {
+      "id": "country-croatia-ivan-rakitic-2018-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Croatia",
+      "year": 2018,
+      "type": "Home"
+    },
+    {
+      "id": "country-croatia-ivan-rakitic-2018-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Croatia",
+      "year": 2018,
+      "type": "Away"
+    },
+    {
+      "id": "country-croatia-mario-mandzukic-2018-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Croatia",
+      "year": 2018,
+      "type": "Home"
+    },
+    {
+      "id": "country-croatia-mario-mandzukic-2018-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Croatia",
+      "year": 2018,
+      "type": "Away"
+    },
+    {
+      "id": "country-england-david-beckham-2002-home",
+      "reason": "missing_image",
+      "entity": "England",
+      "year": 2002,
+      "type": "Home"
+    },
+    {
+      "id": "country-england-david-beckham-2002-away",
+      "reason": "missing_image",
+      "entity": "England",
+      "year": 2002,
+      "type": "Away"
+    },
+    {
+      "id": "country-england-steven-gerrard-2006-home",
+      "reason": "missing_image",
+      "entity": "England",
+      "year": 2006,
+      "type": "Home"
+    },
+    {
+      "id": "country-england-steven-gerrard-2006-away",
+      "reason": "missing_image",
+      "entity": "England",
+      "year": 2006,
+      "type": "Away"
+    },
+    {
+      "id": "country-england-harry-kane-2022-home",
+      "reason": "missing_image",
+      "entity": "England",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "country-england-harry-kane-2022-away",
+      "reason": "missing_image",
+      "entity": "England",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "country-france-zinedine-zidane-1998-home",
+      "reason": "logo_or_badge_like",
+      "entity": "France",
+      "year": 1998,
+      "type": "Home"
+    },
+    {
+      "id": "country-france-zinedine-zidane-1998-away",
+      "reason": "logo_or_badge_like",
+      "entity": "France",
+      "year": 1998,
+      "type": "Away"
+    },
+    {
+      "id": "country-france-antoine-griezmann-2018-home",
+      "reason": "logo_or_badge_like",
+      "entity": "France",
+      "year": 2018,
+      "type": "Home"
+    },
+    {
+      "id": "country-france-antoine-griezmann-2018-away",
+      "reason": "logo_or_badge_like",
+      "entity": "France",
+      "year": 2018,
+      "type": "Away"
+    },
+    {
+      "id": "country-france-kylian-mbappe-2022-home",
+      "reason": "logo_or_badge_like",
+      "entity": "France",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "country-france-kylian-mbappe-2022-away",
+      "reason": "logo_or_badge_like",
+      "entity": "France",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "country-italy-fabio-cannavaro-2006-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Italy",
+      "year": 2006,
+      "type": "Home"
+    },
+    {
+      "id": "country-italy-fabio-cannavaro-2006-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Italy",
+      "year": 2006,
+      "type": "Away"
+    },
+    {
+      "id": "country-italy-francesco-totti-2006-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Italy",
+      "year": 2006,
+      "type": "Home"
+    },
+    {
+      "id": "country-italy-francesco-totti-2006-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Italy",
+      "year": 2006,
+      "type": "Away"
+    },
+    {
+      "id": "country-italy-andrea-pirlo-2012-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Italy",
+      "year": 2012,
+      "type": "Home"
+    },
+    {
+      "id": "country-italy-andrea-pirlo-2012-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Italy",
+      "year": 2012,
+      "type": "Away"
+    },
+    {
+      "id": "country-korea-republic-park-ji-sung-2010-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Korea Republic",
+      "year": 2010,
+      "type": "Home"
+    },
+    {
+      "id": "country-korea-republic-park-ji-sung-2010-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Korea Republic",
+      "year": 2010,
+      "type": "Away"
+    },
+    {
+      "id": "country-korea-republic-ki-sung-yueng-2014-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Korea Republic",
+      "year": 2014,
+      "type": "Home"
+    },
+    {
+      "id": "country-korea-republic-ki-sung-yueng-2014-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Korea Republic",
+      "year": 2014,
+      "type": "Away"
+    },
+    {
+      "id": "country-korea-republic-son-heung-min-2022-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Korea Republic",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "country-korea-republic-son-heung-min-2022-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Korea Republic",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "country-netherlands-wesley-sneijder-2010-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Netherlands",
+      "year": 2010,
+      "type": "Home"
+    },
+    {
+      "id": "country-netherlands-wesley-sneijder-2010-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Netherlands",
+      "year": 2010,
+      "type": "Away"
+    },
+    {
+      "id": "country-netherlands-arjen-robben-2014-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Netherlands",
+      "year": 2014,
+      "type": "Home"
+    },
+    {
+      "id": "country-netherlands-arjen-robben-2014-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Netherlands",
+      "year": 2014,
+      "type": "Away"
+    },
+    {
+      "id": "country-netherlands-virgil-van-dijk-2022-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Netherlands",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "country-netherlands-virgil-van-dijk-2022-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Netherlands",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "country-portugal-luis-figo-2004-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Portugal",
+      "year": 2004,
+      "type": "Home"
+    },
+    {
+      "id": "country-portugal-luis-figo-2004-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Portugal",
+      "year": 2004,
+      "type": "Away"
+    },
+    {
+      "id": "country-portugal-cristiano-ronaldo-2016-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Portugal",
+      "year": 2016,
+      "type": "Home"
+    },
+    {
+      "id": "country-portugal-cristiano-ronaldo-2016-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Portugal",
+      "year": 2016,
+      "type": "Away"
+    },
+    {
+      "id": "country-portugal-bruno-fernandes-2022-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Portugal",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "country-portugal-bruno-fernandes-2022-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Portugal",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "country-usa-landon-donovan-2010-home",
+      "reason": "logo_or_badge_like",
+      "entity": "USA",
+      "year": 2010,
+      "type": "Home"
+    },
+    {
+      "id": "country-usa-landon-donovan-2010-away",
+      "reason": "logo_or_badge_like",
+      "entity": "USA",
+      "year": 2010,
+      "type": "Away"
+    },
+    {
+      "id": "country-usa-clint-dempsey-2014-home",
+      "reason": "logo_or_badge_like",
+      "entity": "USA",
+      "year": 2014,
+      "type": "Home"
+    },
+    {
+      "id": "country-usa-clint-dempsey-2014-away",
+      "reason": "logo_or_badge_like",
+      "entity": "USA",
+      "year": 2014,
+      "type": "Away"
+    },
+    {
+      "id": "country-usa-christian-pulisic-2022-home",
+      "reason": "logo_or_badge_like",
+      "entity": "USA",
+      "year": 2022,
+      "type": "Home"
+    },
+    {
+      "id": "country-usa-christian-pulisic-2022-away",
+      "reason": "logo_or_badge_like",
+      "entity": "USA",
+      "year": 2022,
+      "type": "Away"
+    },
+    {
+      "id": "live-1db05862c4-home",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-1db05862c4-away",
+      "reason": "missing_image",
+      "entity": "FC Barcelona",
+      "year": 2026,
+      "type": "Away"
+    },
+    {
+      "id": "live-11e893f98b-home",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-11e893f98b-away",
+      "reason": "missing_image",
+      "entity": "Borussia Dortmund",
+      "year": 2026,
+      "type": "Away"
+    },
+    {
+      "id": "live-0318fd2642-home",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-0318fd2642-away",
+      "reason": "logo_or_badge_like",
+      "entity": "Chelsea",
+      "year": 2026,
+      "type": "Away"
+    },
+    {
+      "id": "live-cb604efaed-home",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-cb604efaed-away",
+      "reason": "not_jersey_like",
+      "entity": "Juventus",
+      "year": 2026,
+      "type": "Away"
+    },
+    {
+      "id": "live-a7ee3b5494-home",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-a7ee3b5494-away",
+      "reason": "missing_image",
+      "entity": "Liverpool",
+      "year": 2026,
+      "type": "Away"
+    },
+    {
+      "id": "live-8a0b8cd87b-home",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-8a0b8cd87b-away",
+      "reason": "not_jersey_like",
+      "entity": "Inter Milan",
+      "year": 2026,
+      "type": "Away"
+    },
+    {
+      "id": "live-2514f76082-home",
+      "reason": "missing_image",
+      "entity": "Spain",
+      "year": 2026,
+      "type": "Home"
+    },
+    {
+      "id": "live-2514f76082-away",
+      "reason": "missing_image",
+      "entity": "Spain",
+      "year": 2026,
+      "type": "Away"
+    }
+  ]
+}
