@@ -1,10 +1,9 @@
 {
   "total": 206,
-  "pass": 60,
-  "fail": 146,
+  "pass": 94,
+  "fail": 112,
   "reasons": {
     "logo_or_badge_like": 74,
-    "not_jersey_like": 34,
     "missing_image": 38
   },
   "failed_ids": [
@@ -51,48 +50,6 @@
       "type": "Away"
     },
     {
-      "id": "club-arsenal-thierry-henry-2004-home",
-      "reason": "not_jersey_like",
-      "entity": "Arsenal",
-      "year": 2004,
-      "type": "Home"
-    },
-    {
-      "id": "club-arsenal-thierry-henry-2004-away",
-      "reason": "not_jersey_like",
-      "entity": "Arsenal",
-      "year": 2004,
-      "type": "Away"
-    },
-    {
-      "id": "club-arsenal-cesc-fabregas-2006-home",
-      "reason": "not_jersey_like",
-      "entity": "Arsenal",
-      "year": 2006,
-      "type": "Home"
-    },
-    {
-      "id": "club-arsenal-cesc-fabregas-2006-away",
-      "reason": "not_jersey_like",
-      "entity": "Arsenal",
-      "year": 2006,
-      "type": "Away"
-    },
-    {
-      "id": "club-arsenal-bukayo-saka-2023-home",
-      "reason": "not_jersey_like",
-      "entity": "Arsenal",
-      "year": 2023,
-      "type": "Home"
-    },
-    {
-      "id": "club-arsenal-bukayo-saka-2023-away",
-      "reason": "not_jersey_like",
-      "entity": "Arsenal",
-      "year": 2023,
-      "type": "Away"
-    },
-    {
       "id": "club-atletico-madrid-fernando-torres-2016-home",
       "reason": "logo_or_badge_like",
       "entity": "Atletico Madrid",
@@ -132,48 +89,6 @@
       "reason": "logo_or_badge_like",
       "entity": "Atletico Madrid",
       "year": 2021,
-      "type": "Away"
-    },
-    {
-      "id": "club-bayern-munich-thomas-muller-2013-home",
-      "reason": "not_jersey_like",
-      "entity": "Bayern Munich",
-      "year": 2013,
-      "type": "Home"
-    },
-    {
-      "id": "club-bayern-munich-thomas-muller-2013-away",
-      "reason": "not_jersey_like",
-      "entity": "Bayern Munich",
-      "year": 2013,
-      "type": "Away"
-    },
-    {
-      "id": "club-bayern-munich-arjen-robben-2013-home",
-      "reason": "not_jersey_like",
-      "entity": "Bayern Munich",
-      "year": 2013,
-      "type": "Home"
-    },
-    {
-      "id": "club-bayern-munich-arjen-robben-2013-away",
-      "reason": "not_jersey_like",
-      "entity": "Bayern Munich",
-      "year": 2013,
-      "type": "Away"
-    },
-    {
-      "id": "club-bayern-munich-harry-kane-2024-home",
-      "reason": "not_jersey_like",
-      "entity": "Bayern Munich",
-      "year": 2024,
-      "type": "Home"
-    },
-    {
-      "id": "club-bayern-munich-harry-kane-2024-away",
-      "reason": "not_jersey_like",
-      "entity": "Bayern Munich",
-      "year": 2024,
       "type": "Away"
     },
     {
@@ -303,90 +218,6 @@
       "type": "Away"
     },
     {
-      "id": "club-inter-milan-javier-zanetti-2010-home",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2010,
-      "type": "Home"
-    },
-    {
-      "id": "club-inter-milan-javier-zanetti-2010-away",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2010,
-      "type": "Away"
-    },
-    {
-      "id": "club-inter-milan-diego-milito-2010-home",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2010,
-      "type": "Home"
-    },
-    {
-      "id": "club-inter-milan-diego-milito-2010-away",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2010,
-      "type": "Away"
-    },
-    {
-      "id": "club-inter-milan-lautaro-martinez-2023-home",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2023,
-      "type": "Home"
-    },
-    {
-      "id": "club-inter-milan-lautaro-martinez-2023-away",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2023,
-      "type": "Away"
-    },
-    {
-      "id": "club-juventus-pavel-nedved-2003-home",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2003,
-      "type": "Home"
-    },
-    {
-      "id": "club-juventus-pavel-nedved-2003-away",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2003,
-      "type": "Away"
-    },
-    {
-      "id": "club-juventus-alessandro-del-piero-2006-home",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2006,
-      "type": "Home"
-    },
-    {
-      "id": "club-juventus-alessandro-del-piero-2006-away",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2006,
-      "type": "Away"
-    },
-    {
-      "id": "club-juventus-gianluigi-buffon-2017-home",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2017,
-      "type": "Home"
-    },
-    {
-      "id": "club-juventus-gianluigi-buffon-2017-away",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2017,
-      "type": "Away"
-    },
-    {
       "id": "club-liverpool-steven-gerrard-2005-home",
       "reason": "missing_image",
       "entity": "Liverpool",
@@ -426,48 +257,6 @@
       "reason": "missing_image",
       "entity": "Liverpool",
       "year": 2022,
-      "type": "Away"
-    },
-    {
-      "id": "club-manchester-united-david-beckham-1999-home",
-      "reason": "not_jersey_like",
-      "entity": "Manchester United",
-      "year": 1999,
-      "type": "Home"
-    },
-    {
-      "id": "club-manchester-united-david-beckham-1999-away",
-      "reason": "not_jersey_like",
-      "entity": "Manchester United",
-      "year": 1999,
-      "type": "Away"
-    },
-    {
-      "id": "club-manchester-united-wayne-rooney-2008-home",
-      "reason": "not_jersey_like",
-      "entity": "Manchester United",
-      "year": 2008,
-      "type": "Home"
-    },
-    {
-      "id": "club-manchester-united-wayne-rooney-2008-away",
-      "reason": "not_jersey_like",
-      "entity": "Manchester United",
-      "year": 2008,
-      "type": "Away"
-    },
-    {
-      "id": "club-manchester-united-cristiano-ronaldo-2008-home",
-      "reason": "not_jersey_like",
-      "entity": "Manchester United",
-      "year": 2008,
-      "type": "Home"
-    },
-    {
-      "id": "club-manchester-united-cristiano-ronaldo-2008-away",
-      "reason": "not_jersey_like",
-      "entity": "Manchester United",
-      "year": 2008,
       "type": "Away"
     },
     {
@@ -975,20 +764,6 @@
       "type": "Away"
     },
     {
-      "id": "live-cb604efaed-home",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2026,
-      "type": "Home"
-    },
-    {
-      "id": "live-cb604efaed-away",
-      "reason": "not_jersey_like",
-      "entity": "Juventus",
-      "year": 2026,
-      "type": "Away"
-    },
-    {
       "id": "live-a7ee3b5494-home",
       "reason": "missing_image",
       "entity": "Liverpool",
@@ -999,20 +774,6 @@
       "id": "live-a7ee3b5494-away",
       "reason": "missing_image",
       "entity": "Liverpool",
-      "year": 2026,
-      "type": "Away"
-    },
-    {
-      "id": "live-8a0b8cd87b-home",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
-      "year": 2026,
-      "type": "Home"
-    },
-    {
-      "id": "live-8a0b8cd87b-away",
-      "reason": "not_jersey_like",
-      "entity": "Inter Milan",
       "year": 2026,
       "type": "Away"
     },
