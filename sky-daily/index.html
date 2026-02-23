@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sky Daily | 每日天空</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0a0a0f;
+      color: #fff;
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(180deg, #1a1a2e 0%, #0a0a0f 100%);
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      letter-spacing: 0.3em;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 0.9rem;
+      letter-spacing: 0.2em;
+    }
+    .date {
+      color: #888;
+      margin-top: 20px;
+      font-size: 0.85rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      background: #1a1a2e;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background: linear-gradient(transparent, rgba(0,0,0,0.8));
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .card:hover .card-overlay {
+      opacity: 1;
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #444;
+      font-size: 0.8rem;
+    }
+    footer a { color: #666; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SKY DAILY</h1>
+    <p class="subtitle">每日 · 天空 · 治愈</p>
+    <p class="date" id="currentDate"></p>
+  </header>
+  
+  <main class="gallery" id="gallery"></main>
+  
+  <footer>
+    <p>每晚更新 · 10张天空 · 策展精选</p>
+  </footer>
+
+  <script>
+    const dataUrl = 'data.json';
+    
+    async function loadData() {
+      try {
+        const res = await fetch(dataUrl);
+        const data = await res.json();
+        renderGallery(data.images);
+        document.getElementById('currentDate').textContent = data.updated;
+      } catch(e) {
+        console.error(e);
+      }
+    }
+    
+    function renderGallery(images) {
+      const gallery = document.getElementById('gallery');
+      gallery.innerHTML = images.map((img, i) => `
+        <div class="card">
+          <img src="${img.url}" alt="天空 ${i+1}" loading="lazy">
+          <div class="card-overlay">
+            <span>${img.tags ? img.tags.join(' · ') : ''}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    loadData();
+  </script>
+</body>
+</html>
