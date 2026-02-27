@@ -5242,5 +5242,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-02-26"
+  },
+  {
+    "id": "live-67550c2757",
+    "category": "club",
+    "entity": "Real Madrid",
+    "sport": "Football",
+    "league": "La Liga",
+    "team": "Real Madrid",
+    "country": null,
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Home",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Real%20Madrid%202026%20Home%20Kit",
+    "design_background": "UEFA Releases 2026 Kit and Merchandising Revenue Report - Barcelona on Top Ahead of Real Madrid &amp; Bayern München",
+    "cultural_notes": "UEFA today released its latest financial report.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2026/02/uefa-releases-2026-kit-and.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-02-27"
   }
 ]
