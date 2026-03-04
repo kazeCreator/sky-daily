@@ -5392,5 +5392,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-03"
+  },
+  {
+    "id": "live-8eae3c089a",
+    "category": "country",
+    "entity": "England",
+    "sport": "Football",
+    "league": "National Team",
+    "team": null,
+    "country": "England",
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Home",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=England%202026%20Home%20Kit",
+    "design_background": "Umbro England 1998 World Cup &quot;Remake&quot; Kit Released - No England Crest Due to England Nike Deal",
+    "cultural_notes": "Umbro has unveiled their &quot;SS26 Home Collection&quot;, headlined by a remake of the iconic England national football team 1998 World Cup shirt.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2026/03/umbro-england-1998-world-cup-remake-kit.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-04"
   }
 ]
