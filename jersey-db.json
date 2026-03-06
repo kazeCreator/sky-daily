@@ -5442,5 +5442,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-05"
+  },
+  {
+    "id": "live-d394c1f322",
+    "category": "country",
+    "entity": "France",
+    "sport": "Football",
+    "league": "National Team",
+    "team": null,
+    "country": "France",
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Away",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=France%202026%20Away%20Kit",
+    "design_background": "France 2026 World Cup Away Kit Leaked",
+    "cultural_notes": "Update: We can leak a new image of the France 2026 World Cup away kit.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2025/04/france-2026-away-kit.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-06"
   }
 ]
