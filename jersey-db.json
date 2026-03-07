@@ -5467,5 +5467,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-06"
+  },
+  {
+    "id": "live-52359d8e86",
+    "category": "country",
+    "entity": "Argentina",
+    "sport": "Football",
+    "league": "National Team",
+    "team": null,
+    "country": "Argentina",
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Away",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Argentina%202026%20Away%20Kit",
+    "design_background": "Argentina 2026 World Cup Away Kit Leaked - Official Pictures",
+    "cultural_notes": "Update: Footy Headlines can now leak the official pictures of the new Argentina 2026 World Cup away kit.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2025/01/argentina-2026-away-kit.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-07"
   }
 ]
