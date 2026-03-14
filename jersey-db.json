@@ -5592,5 +5592,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-12"
+  },
+  {
+    "id": "live-0d7c77a276",
+    "category": "country",
+    "entity": "Argentina",
+    "sport": "Football",
+    "league": "National Team",
+    "team": null,
+    "country": "Argentina",
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Home",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Argentina%202026%20Home%20Kit",
+    "design_background": "Exclusive: Argentina 2026 World Cup Pre-Match Shirt Leaked",
+    "cultural_notes": "We can today reveal the new Adidas Argentina pre-match jersey for the 2026 World Cup.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2026/03/adidas-argentina-2026-world-cup-pre-match-shirt.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-14"
   }
 ]
