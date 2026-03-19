@@ -5642,5 +5642,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-18"
+  },
+  {
+    "id": "live-94fe87075a",
+    "category": "club",
+    "entity": "Manchester City",
+    "sport": "Football",
+    "league": "Premier League",
+    "team": "Manchester City",
+    "country": null,
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Third",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Manchester%20City%202026%20Third%20Kit",
+    "design_background": "Manchester City 26-27 Third Kit &quot;Leaked&quot;",
+    "cultural_notes": "Update - March 2026: Based on the leaked winning design, designer @Rode1Kits has created an impressive early mock-up of Manchester City’s 2026-27 third kit.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2024/12/manchester-city-26-27-third-kit.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-19"
   }
 ]
