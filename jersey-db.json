@@ -5667,5 +5667,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-19"
+  },
+  {
+    "id": "live-ae0acb566f",
+    "category": "country",
+    "entity": "Portugal",
+    "sport": "Football",
+    "league": "National Team",
+    "team": null,
+    "country": "Portugal",
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Home",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Portugal%202026%20Home%20Kit",
+    "design_background": "Puma to Release Long-Sleeve Kits for Portugal &amp; Morocco",
+    "cultural_notes": "Update: According to the latest update from Opaleak, only Portugal and Morocco will receive long-sleeve jersey options for the 2026 World Cup.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2026/03/puma-long-sleeve-kit.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-25"
   }
 ]
