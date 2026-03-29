@@ -5717,5 +5717,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-26"
+  },
+  {
+    "id": "live-8ee603b197",
+    "category": "club",
+    "entity": "FC Barcelona",
+    "sport": "Football",
+    "league": "La Liga",
+    "team": "FC Barcelona",
+    "country": null,
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Third",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=FC%20Barcelona%202026%20Third%20Kit",
+    "design_background": "FC Barcelona 26-27 Third Kit Leaked",
+    "cultural_notes": "Update - Mar 28, 2026: Barça shirt insider @memorabilia1899 provides us with a leak of the Barcelona 2026-27 third kit.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2025/10/barcelona-26-27-third-kit.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-29"
   }
 ]
