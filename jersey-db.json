@@ -5742,5 +5742,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-29"
+  },
+  {
+    "id": "live-5fb37bad14",
+    "category": "club",
+    "entity": "Real Madrid",
+    "sport": "Football",
+    "league": "La Liga",
+    "team": "Real Madrid",
+    "country": null,
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Away",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Real%20Madrid%202026%20Away%20Kit",
+    "design_background": "Color Analysis: Unreleased Real Madrid 26-27 Home, Away &amp; Third Kits",
+    "cultural_notes": "The upcoming Real Madrid 2026-27 kit collection promises to bring plenty of excitement, perfectly blending unprecedented new color combinations with a healthy dose of nostalgia.",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2026/03/blog-post.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-30"
   }
 ]
