@@ -5767,5 +5767,30 @@
     "source_type": "media",
     "credibility": 82,
     "last_verified": "2026-03-30"
+  },
+  {
+    "id": "live-1f35de149c",
+    "category": "club",
+    "entity": "Arsenal",
+    "sport": "Football",
+    "league": "Premier League",
+    "team": "Arsenal",
+    "country": null,
+    "player": "Team Edition",
+    "year": 2026,
+    "era": "20s",
+    "number": "-",
+    "brand": "Unknown",
+    "type": "Away",
+    "colorway": "TBD",
+    "image_official_url": "",
+    "image_url": "https://placehold.co/640x800/f2f2f2/1f1f1f.png?text=Arsenal%202026%20Away%20Kit",
+    "design_background": "Color Analysis: Unreleased Arsenal 26-27 Home, Away &amp; Third Kits",
+    "cultural_notes": "Alongside their unique and highly anticipated designs, the unreleased Arsenal 2026-2027 kit collection will also offer some incredibly interesting color choices for Gooners in the ",
+    "source": "Footy Headlines",
+    "source_url": "https://www.footyheadlines.com/2026/03/arsenal-26-27-kits-colors.html",
+    "source_type": "media",
+    "credibility": 82,
+    "last_verified": "2026-03-31"
   }
 ]
